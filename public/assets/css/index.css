@@ -1,0 +1,3734 @@
+@charset "utf-8";
+
+/*
+Powered By www.toprand.com
+*/
+
+.ch {
+    font-family: Renogare, NSimsun;
+    /* ahar##oni*/
+}
+
+.qrcode {
+    width: 360px;
+    height: 360px;
+    padding: 20px;
+}
+
+html {
+    height: 100%;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial ';
+    padding: 0;
+    -webkit-text-size-adjust: none;
+    min-width: 320px;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: none;
+    font-style: normal;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*禁止链接高亮*/
+    -webkit-touch-callout: none;
+    /*禁止链接长按弹出选项菜单*/
+}
+
+
+/* icon */
+
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont/iconfont.eot?t=1484622676886');
+    /* IE9*/
+    src: url('iconfont/iconfont.eot?t=1484622676886#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont/iconfont.woff?t=1484622676886') format('woff'), /* chrome, firefox */
+    url('iconfont/iconfont.ttf?t=1484622676886') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('iconfont/iconfont.svg?t=1484622676886#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: 'iconfont2';
+    /* project id 248512 */
+    src: url('http://at.alicdn.com/t/font_8d4ek8mhuns714i.eot');
+    src: url('http://at.alicdn.com/t/font_8d4ek8mhuns714i.eot?#iefix') format('embedded-opentype'), url('http://at.alicdn.com/t/font_8d4ek8mhuns714i.woff') format('woff'), url('http://at.alicdn.com/t/font_8d4ek8mhuns714i.ttf') format('truetype'), url('http://at.alicdn.com/t/font_8d4ek8mhuns714i.svg#iconfont2') format('svg');
+}
+
+@font-face {
+    font-family: 'Peace Sans';
+    src: url(fonts/Peace_Sans_Webfont.ttf);
+    src: url('fonts/Peace_Sans_Webfont.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'Aharoni';
+    /* ahar##oni*/
+    src: url('fonts/ahronbd.ttf');
+    src: url('fonts/ahronbd.ttf') format('truetype'),
+}
+
+.iconfont2 {
+    font-family: "iconfont2" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-up4:before {
+    content: "\e603";
+}
+
+.icon-down1:before {
+    content: "\e653";
+}
+
+.icon-30:before {
+    content: "\e622";
+}
+
+.icon-up2:before {
+    content: "\e643";
+}
+
+.icon-up3:before {
+    content: "\e6a3";
+}
+
+.icon-weixin:before {
+    content: "\e601";
+}
+
+.icon-xiangyou2:before {
+    content: "\e607";
+}
+
+.icon-xiangyou3:before {
+    content: "\e61a";
+}
+
+.icon-xiangzuo1:before {
+    content: "\e65f";
+}
+
+.icon-xiangxia1:before {
+    content: "\e611";
+}
+
+.icon-sina:before {
+    content: "\e6a4";
+}
+
+.icon-right2:before {
+    content: "\e692";
+}
+
+.icon-angle-down:before {
+    content: "\e686";
+}
+
+.icon-right:before {
+    content: "\e600";
+}
+
+.icon-left:before {
+    content: "\e602";
+}
+
+.icon-down:before {
+    content: "\e6f2";
+}
+
+.icon-menu:before {
+    content: "\e614";
+}
+
+.icon-close:before {
+    content: "\e69a";
+    font-weight: bold;
+}
+
+.icon-down2:before {
+    content: "\e6a8";
+}
+
+.icon-up:before {
+    content: "\e6a9";
+}
+
+.icon-add:before {
+    content: "\e6b9";
+}
+
+.icon-minus:before {
+    content: "\e6ba";
+}
+
+.icon-back:before {
+    content: "\e694";
+}
+
+.icon-up4:before {
+    content: "\e609";
+}
+
+.icon-weibo:before {
+    content: "\e619";
+}
+
+.icon-wechat:before {
+    content: "\e600";
+}
+
+.icon-linkedin:before {
+    content: "\e615";
+}
+
+
+/* font */
+
+@font-face {
+    font-family: 'cordia';
+    src: url('fonts/cordia/cordia.eot');
+    src: url('fonts/cordia/cordia.eot?#iefix') format('embedded-opentype'), url('fonts/cordia/cordia.woff2') format('woff2'), url('fonts/cordia/cordia.woff') format('woff'), url('fonts/cordia/cordia.ttf') format('truetype'), url('fonts/cordia/cordia.svg#cordia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minnie';
+    src: url('fonts/Minnie/Minnie.eot');
+    src: url('fonts/Minnie/Minnie.eot?#iefix') format('embedded-opentype'), url('fonts/Minnie/Minnie.woff2') format('woff2'), url('fonts/Minnie/Minnie.woff') format('woff'), url('fonts/Minnie/Minnie.ttf') format('truetype'), url('fonts/Minnie/Minnie.svg#Minnie') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Aharoni, 'Renogare';
+    src: url('fonts/Renogare/Renogare.eot');
+    src: url('fonts/Renogare/Renogare.eot?#iefix') format('embedded-opentype'), url('fonts/Renogare/Renogare.woff2') format('woff2'), url('fonts/Renogare/Renogare.woff') format('woff'), url('fonts/Renogare/Renogare.ttf') format('truetype'), url('fonts/Renogare/Renogare.svg#Renogare') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'swissk';
+    src: url('fonts/swissk/swissk.eot');
+    src: url('fonts/swissk/swissk.eot?#iefix') format('embedded-opentype'), url('fonts/swissk/swissk.woff2') format('woff2'), url('fonts/swissk/swissk.woff') format('woff'), url('fonts/swissk/swissk.ttf') format('truetype'), url('fonts/swissk/swissk.svg#swissk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+a:link {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*禁止链接高亮*/
+    -webkit-touch-callout: none;
+    /*禁止链接长按弹出选项菜单*/
+}
+
+img {
+    -webkit-touch-callout: none;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    /*禁止图片长按弹出选项菜单*/
+}
+
+input,
+textarea {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+address,
+cite,
+dfn,
+em,
+var,
+i {
+    font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: courier new, courier, monospace;
+}
+
+form {
+    display: inline;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #003473;
+    text-decoration: none;
+}
+
+a:active {
+    color: #003473;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    vertical-align: middle;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+textarea {
+    resize: none;
+}
+
+header,
+footer,
+article,
+section,
+nav,
+menu,
+hgroup {
+    display: block;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix {
+    zoom: 1
+}
+
+*,
+ :before,
+ :after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "cordia", sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+}
+
+.blur {
+    filter: url(blur.svg#blur);
+    -webkit-appearance: none;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
+}
+
+input::-webkit-input-placeholder {
+    color: #a9a9a9;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #a9a9a9;
+}
+
+img {
+    display: block;
+    vertical-align: middle;
+    margin: auto;
+    width: 100%;
+}
+
+
+/*defult class*/
+
+.page {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    display: none;
+}
+
+.pos {
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.fadeIn_right {
+    -webkit-transform: translate3d(100%, 0px, 0px);
+    -moz-transform: translate3d(100%, 0px, 0px);
+    -ms-transform: translate3d(100%, 0px, 0px);
+    -o-transform: translate3d(100%, 0px, 0px);
+    transform: translate3d(100%, 0px, 0px);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.fadeIn {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.fadeOut_left {
+    -webkit-transform: translate3d(-100%, 0px, 0px);
+    -moz-transform: translate3d(-100%, 0px, 0px)(-100%, 0);
+    -ms-transform: translate3d(-100%, 0px, 0px)-o-transform: translate3d(-100%, 0px, 0px);
+    transform: translate3d(-100%, 0px, 0px);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.overBg {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 6;
+}
+
+
+/*----- header ----*/
+
+.header {
+    width: 100%;
+    height: 48px;
+    z-index: 13;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #fff;
+    /*background: #fff*/
+}
+
+.header-bg {
+    background: #fff;
+    /*rgba(181, 181, 181, 0.9);*/
+    width: 100%;
+    height: 48px;
+    z-index: 11;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.header .logo {
+    position: absolute;
+    top: 0;
+    line-height: 48px;
+    height: 48px;
+    display: inline-block;
+    left: calc(7.5% - 10px);
+    z-index: 10;
+}
+
+.header .logo>a {
+    color: #332c2a;
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 6px;
+    font-family: Aharoni, 'Renogare';
+}
+
+.header .btn-menu {
+    position: absolute;
+    top: 0;
+    width: 48px;
+    line-height: 48px;
+    height: 48px;
+    text-align: center;
+    display: block;
+    right: calc(7.5% - 20px);
+    font-size: 22px;
+    font-family: "iconfont" !important;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.back-work {
+    position: absolute;
+    top: 0;
+    right: calc(7.5% + 32px);
+    cursor: pointer;
+    line-height: 48px;
+    height: 48px;
+    font-family: Aharoni, 'Renogare';
+    color: #231815;
+    font-size: 0.75em;
+}
+
+.back-work:before {
+    font-family: "iconfont" !important;
+    content: "\e694";
+}
+
+.back-work a {
+    display: inline-block;
+    color: #231815;
+}
+
+
+/*-----  menuBar --------*/
+
+.menuBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 12;
+    background: rgba(28, 32, 135, 1.0);
+}
+
+.menuInner {
+    z-index: 1;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-list {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu-list ul {
+    width: 550px;
+    margin: auto;
+}
+
+.menu-list li {
+    width: 100%;
+    text-align: right;
+    line-height: 65px;
+    font-size: 55px;
+    /*line-height: 76px;*/
+    /*font-size: 82px;*/
+    text-transform: uppercase;
+    font-family: 'Peace Sans', NSimSun,SimSun,'宋体';
+    margin-top: 15px;
+    background: #040000;
+    font-weight: bold;
+}
+.header .logo>a.on{
+    font-family: Renogare;
+}
+
+.header .logo>a.sOn,
+.sOn {
+    color: #221815;
+}
+.header .logo>a img{
+    margin-top: 11px;
+}
+.menu-list li a,
+.header .logo>a.on,
+.on {
+    color: #fff;
+}
+
+.menu-list li a:hover {
+    color: #fff;
+}
+
+.menuBar .icon-ds-squiggle {
+    margin: 32px auto 28px;
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    height: 8px;
+    width: 70px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.menuBar em {
+    font-family: Cordia;
+    font-size: 17px;
+    color: #efefef;
+    line-height: 14px;
+}
+
+.menuBar .menu-share {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.menuBar .menu-share a {
+    display: inline-block;
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0 5px;
+    vertical-align: top;
+}
+
+.menuBar .menu-share a.icon-sina {
+    font-size: 16px;
+    padding: 0;
+    margin-top: 1px;
+}
+
+
+/*----- footer ----*/
+
+.footer {
+    width: 100%;
+    background: url(http://images-1253411363.picgz.myqcloud.com/footer_bd.jpg);
+    z-index: 5;
+    overflow: hidden;
+    color: #342c2a;
+    padding: 64px 0 140px;
+    line-height: 21px;
+}
+
+.footer-inner {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 calc(3% - 20px) 0 calc(3% - 10px);
+    position: relative;
+}
+
+.footer .column {
+    float: left;
+    max-width: 330px;
+    padding: 0 150px 22px 0;
+    display: block;
+    font-family: Aharoni, "Renogare";
+}
+
+.footer .column h4 {
+    width: 100%;
+    font-size: 18px;
+    font-family: Aharoni, "Renogare", NSimsun;
+    /* ahar##oni*/
+    display: block;
+    padding-bottom: 10px;
+}
+
+.footer .f-logo img {}
+
+.footer .f-logo {
+    color: #fff;
+    display: inline-block;
+}
+
+.footer .f-logo h4 i {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: Aharoni, "Renogare";
+}
+
+.footer .f-logo span {
+    width: 100%;
+    font-size: 16px;
+    display: block;
+    font-family: "cordia";
+}
+
+.footer .f-share,
+.menuBar .menu-share,
+.contact .contact-share {
+    padding-top: 10px;
+    display: block;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    font-family: "iconfont" !important;
+    cursor: pointer;
+    padding-left: 0;
+}
+
+.footer .f-share a {
+    float: left;
+    padding-right: 10px;
+    color: #342c2a;
+    font-size: 16px;
+}
+
+.footer .walk,
+.footer .talk {
+    /*text-transform: uppercase;*/
+    color: #342c2a;
+    display: block;
+    font-family: "Cordia";
+    font-size: 15px;
+}
+
+.footer .walk address {
+    font-size: 23px;
+    font-family: "Cordia";
+    padding-bottom: 10px;
+}
+
+.footer .walk address.ch {
+    font-size: 15px;
+}
+
+.footer .walk span {
+    font-size: 23px;
+}
+
+.footer .walk i {
+    display: block;
+    text-decoration: underline;
+}
+
+.footer .talk li {
+    display: block;
+    width: 100%;
+    font-family: "Cordia";
+    font-size: 23px;
+}
+
+.footer .talk li a span {
+    font-size: 23px;
+}
+
+.footer .talk li span {
+    font-size: 15px;
+}
+
+.footer .column.one {
+    width: 256px;
+    padding: 0 40px 22px 0;
+    /*position: absolute;
+    top: 0;
+    left: calc(950px - 6%);*/
+}
+
+.footer .column.two {
+    width: 138px;
+    /*position: absolute;
+    top: 0;
+    left: calc(950px - 6%);*/
+}
+
+.footer .column.two img {
+    width: 95px
+}
+
+.footer .back-top {
+    width: 70px;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    cursor: pointer;
+    display: table;
+    font-family: "iconfont" !important;
+    cursor: pointer;
+}
+
+.footer .back-top .icon-up {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.footer a:hover,
+.footer .talk li a:hover {
+    color: #e50011
+}
+
+
+/*----- index ----*/
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-container-horizontal>.swiper-pagination {
+    bottom: 30px;
+    left: calc(6% + 20px);
+    text-align: left;
+}
+
+.scroll-down-arrow {
+    position: absolute;
+    text-align: center;
+    right: 7.5%;
+    bottom: 35px;
+    border: 2px solid #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+    z-index: 10;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.scroll-down-arrow:before {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    content: "\e6a8";
+    font-family: "iconfont" !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.scroll-down-arrow.animated:before {
+    -webkit-transition: top .3s ease;
+    -moz-transition: top .3s ease;
+    -ms-transition: top .3s ease;
+    -o-transition: top .3s ease;
+    transition: top .3s ease;
+}
+
+.scroll-down-arrow.slid-up:before {
+    top: -22px
+}
+
+.scroll-down-arrow.slid-down:before {
+    top: 22px
+}
+
+.scroll-down-arrow.slid-way-down:before {
+    -webkit-transition: top .6s ease;
+    -moz-transition: top .6s ease;
+    -ms-transition: top .6s ease;
+    -o-transition: top .6s ease;
+    transition: top .6s ease;
+    top: 22px
+}
+
+.swiper-container .swiper-slide-active .ban-text {
+    bottom: 35px;
+    /*bottom: calc(7.5% + 20px) ; */
+    -webkit-transition: bottom .6s ease 0.8s;
+    -moz-transition: bottom .6s ease 0.8s;
+    -ms-transition: bottom .6s ease 0.8s;
+    -o-transition: bottom .6s ease 0.8s;
+    transition: bottom .6s ease 0.8s;
+}
+
+.swiper-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+
+/*text-title*/
+
+.text-title {
+    width: 100%;
+    text-align: center;
+    padding: 60px 5% 80px;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+    background: #1b1b1b;
+    font-family: 'cordia';
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 10px 30px 5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 10px 30px 5px rgba(0, 0, 0, .1);
+    box-shadow: 0 10px 30px 5px rgba(0, 0, 0, .1);
+}
+
+.about .text-title {
+    min-height: 330px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJBAMAAAD5iKAgAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAeUExURSIiIl9fXzAwMFhYWEdHRyoqKiUlJT4+Pk9PTzY2Nn4lXf8AAAA+SURBVAjXYxDlKFBmY1BmE2VxYGBxUGQQYkgwYm8IZGgITLBkZ+jkNEhMYEgMaOc0YGAySAxwZ1BwYRJgBADleQkgd0xZkQAAAABJRU5ErkJggg==");
+    border-bottom: 1px solid #746C69;
+}
+
+.careers .text-title {
+    padding: 50px 5% 120px
+}
+
+.worklist .text-title {
+    padding: 10px 0 0 0 ;
+    background:#040000
+}
+.worklist .text-title h2{
+    font-size:21px;
+}
+.worklist .text-title h2 span{
+    font-size:14px;
+}
+
+.text-title .icon-ds-squiggle {
+    font-size: 1em;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 7px;
+    font-family: "iconfont" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: " ";
+    width: 124px;
+    height: 5px;
+    background: #202020
+}
+
+.text-title .icon-ds-squiggle:before {
+    /*content: url(../images/icos/squiggle.gif);*/
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    content: " ";
+    width: 124px;
+    height: 6px;
+    background: #202020
+}
+
+.text-title h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 23px;
+    font-family: 'Aharoni', 'Renogare', NSimsun,Simsun, Nsimsun;
+    /* ahar##oni*/
+    /*text-transform: uppercase;*/
+    font-weight: bolder;
+    margin-bottom: 5px;
+    background: #020202;
+    color: #fff;
+    padding: 8px 10px;
+    display: inline-block;
+    line-height: 30px;
+}
+
+.text-title h2 .ch {
+    font-size: 20px;
+    font-family: NSimsun,Simsun;
+    font-weight:400;
+}
+
+.careers .text-title h2 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.about .text-title h2 {
+    font-size: 40px;
+    color: rgb(251, 1, 0);
+    letter-spacing: 10px;
+}
+
+.about .tgrid-item-text h4 {
+    font-size: 13px;
+    font-family: Aharoni, "Renogare";
+    letter-spacing: 1px;
+    padding: 10px 5px;
+    padding-bottom: 0!important;
+    font-size: 17px;
+}
+
+.about .tgrid-item .splitor_white.large {
+    vertical-align: bottom;
+    margin-left: -15px;
+    margin-right: -5px;
+}
+
+.about .tgrid-item-text h4 span {
+    font-family: Aharoni, Renogare, NSimsun;
+    /* ahar##oni*/
+}
+
+.about .tgrid-item-text h4 em {
+    font-size: 14px;
+    font-family: Renogare, NSimsun;
+    /* ahar##oni*/
+}
+
+.about .team-item .tgrid-item-text {
+    padding: 5px 10px 40px;
+    min-height: auto;
+}
+
+.about .team-item .tgrid {
+    margin-bottom: 200px;
+}
+
+.about .serve-title {
+    font-size: 18px;
+    text-align: center;
+    font-family: Aharoni, "Renogare";
+    letter-spacing: 1px;
+    padding: 30px 0 25px;
+    width: 100%;
+}
+
+.about .serve-title2 {
+    font-size: 21px;
+    text-align: center;
+    font-family: "Aharoni", "Renogare", NSimsun;
+    letter-spacing: 1px;
+    padding: 30px 0 25px;
+}
+
+.about .serve-title2 .ch {
+    font-size: 14px;
+    font-family: NSimsun,Simsun, Nsimsun;
+}
+
+.about .tgrid-item-text p {
+    font-family: "Cordia";
+    font-size: 17px;
+    padding: 0;
+    line-height: 20px;
+}
+
+.about .tgrid-item-text p.ch {
+    font-family: NSimsun;
+    font-size: 14px;
+}
+
+.about .text-title h3 {
+    font-size: 17px;
+    font-family: Aharoni, "Renogare";
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+.text-title p {
+    font-family: "Cordia";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #3a322f;
+    margin: 0 auto;
+    max-width: 660px;
+}
+
+
+/*grid-container*/
+
+.grid-container {
+    position: relative;
+    width: 100%;
+    font-family: Aharoni, "Renogare";
+    opacity: 1;
+    transition: .2s ease;
+}
+
+.work-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.grid-container .grid-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    float: left;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    overflow: hidden;
+}
+
+.grid-container .grid-item a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container .grid-items a {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.grid-container .grid-item .image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.grid-container .grid-item .pc {
+    display: block;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.grid-container .grid-item .mobile {
+    display: none;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.grid-item-culture aside {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    padding: 15px;
+    min-width: 300px;
+    padding-bottom: 0;
+}
+
+.grid-item-culture aside h6 {
+    font-weight: 400;
+}
+
+.grid-item-culture aside h6.ch {
+    padding-bottom:30px;
+    background: #222;
+}
+
+.grid-item-culture aside h6 span {
+    color: #fff;
+    background: #222;
+    padding-left: 5px;
+    padding-right: 2px;
+    padding-top: 3px;
+    font-size: 14px;
+    font-family: Aharoni, "Renogare", NSimsun;
+}
+
+.grid-item-culture aside h6.ch span {
+    background:transparent;
+}
+
+.grid-item-culture aside h5 {
+    font-family: Renogare;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 10px;
+    background: #222;
+    color: #fff;
+    margin-top: 20px;
+    padding: 5px;
+    line-height: 23px;
+}
+
+.grid-item-culture aside h5.ch {
+    font-size: 19px;
+    font-family: Aharoni, "Renogare", NSimsun;
+    font-weight: 300;
+}
+
+.grid-item-culture aside h5 span {
+    background: #222;
+    color: #fff;
+}
+
+.grid-item-culture aside .subtitle {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: .67375em;
+    line-height: 1.1em;
+    display: block;
+    background: #222;
+    color: #fff;
+}
+
+.grid-item-culture i {
+    position: absolute;
+    bottom: 20px;
+}
+
+.ds-cross {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.ds-cross:before,
+.ds-cross:after {
+    content: "";
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.ds-cross:before {
+    width: 21px;
+    height: 1px;
+    margin-left: -10px;
+}
+
+.ds-cross:after {
+    width: 1px;
+    height: 21px;
+    margin-top: -10px;
+}
+
+.grid-item-culture:hover .ds-cross:before,
+.grid-item-culture:hover .ds-cross:after {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg)
+}
+
+.grid-item-image:hover .ds-cross:after {
+    transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg)
+}
+
+.grid-item-image:hover .ds-cross:before {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg)
+}
+
+.grid-item-image aside {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    padding: 16px 30px;
+    line-height: 40px;
+    font-weight: 300;
+    /*text-transform: uppercase;*/
+    overflow: hidden;
+}
+
+.grid-item-image aside .title-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -80px;
+    padding: 0;
+    left: 0;
+    text-align: left;
+    color: #fff;
+    line-height: 20px;
+    background: rgba(33, 34, 35, 1);
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.grid-item-image aside .title-container .title {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Aharoni, "Renogare";
+    font-weight: 400;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    font-size: 17px;
+    -webkit-transform: scale(0.875);
+    -moz-transform: scale(0.875);
+    -ms-transform: scale(0.875);
+    -o-transform: scale(0.875);
+}
+
+.grid-item-image aside .title-container .title em {
+    font-family: "Renogare";
+    font-size: 11px;
+}
+
+.grid-item-image aside .title-container i {
+    display: block;
+    position: absolute;
+    margin-top: -12px;
+    z-index: 2;
+    font-family: "iconfont" !important;
+    content: "\e6b9";
+}
+
+.grid-item-image aside .title-container h6 {
+    font-weight: 400;
+    padding-left: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background: rgba(33, 34, 35, 1);
+}
+
+.grid-container .grid-item a:hover .title-container {
+    bottom: 0;
+}
+
+.grid-item-image img {
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.grid-item-image:hover img {
+    bottom: 0;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.grid-item-image .image {
+    overflow: hidden;
+}
+
+
+/*media-intro*/
+
+a.media-intro {
+    width: 100%;
+    height: 400px;
+    display: table;
+}
+
+a.media-intro aside {
+    padding: 0 7.5%;
+    line-height: 24px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    /*background-color: rgba(0,0,0,.2);*/
+    z-index: 3;
+    padding-top: 20px;
+    -webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -ms-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+
+a.media-intro aside h3 {
+    font-family: Aharoni, "Renogare";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+a.media-intro aside h4 {
+    font-family: Aharoni, "Renogare";
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 1em;
+    margin-bottom: 18px;
+}
+
+a.media-intro aside p {
+    font-family: 'Aharoni', "Renogare";
+    /* ahar##oni*/
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 32px;
+}
+
+a.media-intro aside p.ch {
+    font-weight: 400;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-family:'NSimsun';
+}
+
+a.media-intro aside i.icon-right {
+    font-family: "iconfont" !important;
+    width: 23px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 18px;
+    -webkit-transition: padding-left .2s ease;
+    -moz-transition: padding-left .2s ease;
+    -ms-transition: padding-left .2s ease;
+    -o-transition: padding-left .2s ease;
+    transition: padding-left .2s ease;
+}
+
+a.media-intro:hover aside i.icon-right {
+    padding-left: 23px;
+}
+
+a.media-intro aside:hover {
+    background-color: transparent;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000);
+    zoom: 1;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.bg-blue {
+    color: #e60012;
+    background-color: #1d2088;
+}
+
+.bg-red {
+    color: #ffffff;
+    background-color: #e60012;
+}
+
+.bg-blue a {
+    color: #e60012;
+}
+
+.bg-red a {
+    color: #ffffff;
+}
+
+
+/*------------------------------------------*/
+
+
+/*  home  */
+
+
+/*------------------------------------------*/
+
+.index-name {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    line-height: 240px;
+    z-index: 2;
+    margin: auto;
+    text-align: center
+}
+
+.index-name h3 {
+    color: #e6212a;
+    font-size: 160px;
+    font-family: Aharoni, 'Renogare';
+    letter-spacing: 10px;
+}
+
+.index-name span {
+    padding: 2px 4px;
+    /*background: #e6212a;*/
+    color: #e6212a;
+    font-size: 19px;
+    font-family:Nsimsun,Simsun;
+}
+.index-name .title-en{
+    margin-top: -260px;
+    display: block;
+    width: 400px;height: 30px;line-height: 30px;
+    margin: auto;
+    font-family:'Aharoni', 'Renogare', 'NSimsun','Simsun', 'Nsimsun'
+}
+.index-name .index-tool{
+    margin-top: -450px;
+    width: 400px;height: 30px;line-height: 30px;
+    margin: auto;
+    display: block;   
+}
+
+/*------------------------------------------*/
+
+
+/*  work  */
+
+
+/*------------------------------------------*/
+
+.work-nav {
+    text-align: center;
+    width: 100%;
+    display: block;
+    height: 48px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    font-family: Aharoni, "Renogare";
+}
+
+.work-nav .nav-link {
+    line-height: 48px;
+    height: 48px;
+    display: inline-block;
+    padding: 3px 15px;
+    text-transform: uppercase;
+    color: #231815;
+    position: relative;
+    font-size: 0.75em;
+}
+
+.work-nav .nav-link.actvie:hover,
+.work-nav .nav-link.actvie {
+    padding-bottom: 0;
+    border-bottom: solid #e60012 3px;
+}
+
+.work-nav .nav-link i {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    padding-right: 10px;
+}
+
+.work-nav .nav-link i:before {
+    content: "\e611";
+    position: absolute;
+    right: -10px;
+    top: 0;
+    font-family: "iconfont" !important;
+}
+
+.work-nav .nav-link i.iup:before {
+    content: "\e609";
+}
+
+.work-nav .nav-link .links {
+    display: none;
+    position: absolute;
+    top: 47px;
+    right: 0;
+    width: 100%;
+    line-height: 30px;
+    background: rgba(181, 181, 181, 0.9);
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.work-nav .nav-link .links>a {
+    display: block;
+    width: 100%;
+    text-align: right;
+    color: #231815;
+}
+
+.work li {
+    float: left;
+    width: 33.333%;
+    display: none;
+}
+
+
+/* news detail*/
+
+.news-detail-title {
+    width: 60%;
+    margin: 0 auto 0;
+    padding: 30px 0;
+    position: relative;
+    z-index: 5;
+    /*background: rgb(237, 238, 239);*/
+    font-family: Aharoni, 'Renogare';
+    max-width: 80%;
+    width: 100%;
+}
+
+.news-detail-title p {
+    color: #464a45;
+    font-family: Cordia;
+    font-size: 25px
+}
+
+.news-detail-title p.ch {
+    font-family: Cordia, NSimsun;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.news-detail-content {
+    font-family: "Cordia";
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.news .banner {
+    width: 100%;
+    position: relative;
+}
+
+.news .banner {
+    width: 100%;
+    height: 550px;
+    display: block;
+}
+
+.news .banner .w1400 {
+    width: 1400px;
+    margin: auto;
+}
+
+
+/* work detail*/
+
+.work-detail-title {
+    width: 60%;
+    margin: 0 auto 0;
+    padding: 30px 40px 30px 70px;
+    position: relative;
+    z-index: 5;
+    background: #3e3e3e url(http://images-1253411363.picgz.myqcloud.com/title_black_bg.jpg) repeat;
+    font-family: Aharoni, 'Renogare';
+    max-width: 950px;
+    width: 100%;
+    color:#fff;
+}
+
+.title-left {
+    display: inline-block;
+    width: calc(100% - 220px);
+    vertical-align: top;
+    font-size: 1em;
+}
+
+.title-left h5,
+.com-left h5 {
+    width: 100%;
+    font-size: 18px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    font-family:'Aharoni';
+}
+
+.title-left h5.ch,
+.com-left h5.ch {
+    font-family:NSimsun,Simsun;
+    font-size:20px;
+}
+.title-left h6,
+.com-left h6 {
+    width: 100%;
+    font-size: 23px;
+    padding-bottom: 15px;
+    font-family:'Aharoni';
+}
+
+.title-left h6.ch,
+.com-left h6.ch {
+    font-family:Nsimsun,Simsun;
+    font-size:14px;
+}
+.title-left p,
+.detail-com .com-left p {
+    font-family: "Cordia";
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.title-left p.ch,
+.detail-com .com-left p.ch {
+    font-size:14px;
+    font-family:Nsimsun,Simsun;
+}
+.title-right {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+
+.title-right li {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.title-right li h4 {
+    Font-family:'Aharoni';
+    font-size: 18px;
+}
+.title-right li h4.ch {
+    Font-family:'Nsimsun',Simsun;
+    font-size: 14px;
+}
+
+.title-right li a {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Cordia";
+}
+
+.title-right li .de-share {
+    display: block;
+}
+
+.title-right li .de-share a {
+    text-decoration: none;
+    font-family: "iconfont" !important;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.detail-com {
+    width: 100%;
+    font-family: Aharoni, 'Renogare';
+    background: #fff;
+}
+
+.detail-com .pct120 {
+    width: 120%;
+    margin-left: -10%;
+}
+
+.detail-com .com-left {
+    float: left;
+    width: 400px;
+    padding: 30px;
+    height: 100%;
+    color: #ffffff;
+    background: #332e30;
+}
+
+.detail-com .combar {
+    float: left;
+    width: calc(100% - 400px);
+}
+
+.combar-next,
+.combar-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: #929293;
+    font-size: 26px;
+    line-height: 23px;
+    text-align: center;
+    z-index: 5;
+    background: #ffffff;
+    width: 40px;
+    height: 23px;
+    margin-top: -11px;
+    cursor: pointer;
+    font-family: "iconfont" !important;
+    content: "\e600";
+}
+
+.combar-next {
+    left: auto;
+    right: 0;
+    content: "\e602";
+}
+
+.detail-video {
+    width: 100%;
+    /*margin-top: calc(7.5% - 30px);*/
+    background: #000;
+    position: relative;
+    font-family: Aharoni, 'Renogare';
+    height: 525px;
+    overflow: hidden;
+}
+
+.detail-video:hover:before {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 64px;
+    height: 64px;
+    background: url(../images/play.png) center center no-repeat;
+    background-size: 100%;
+    content: " ";
+    z-index: 3;
+    cursor: pointer;
+}
+
+.detail-video.played:hover:before {
+    display: none
+}
+
+.detail-video video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.detail-video .video-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: calc(7.5% - 30px);
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.detail-video .video-text h6 {
+    font-size: 0.9em;
+    padding-bottom: 15px;
+}
+
+.detail-video .video-text h5 {
+    font-size: 1.15em;
+    padding-bottom: 10px;
+}
+
+.detail-video .video-text h4 {
+    font-size: 1.925em;
+    padding-bottom: 10px;
+}
+
+.detail-video .video-text .aplay {
+    display: block;
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    font-family: "iconfont" !important;
+}
+
+.detail-video .video-text .aplay:before {
+    content: "\e607";
+    color: #fff;
+}
+
+.detail-randoms {
+    width: 100%;
+    position: relative;
+    font-family: Aharoni, 'Renogare';
+    /*max-height:295px;overflow: hidden;*/
+}
+
+.about .detail-randoms {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.detail-randoms h3 {
+    width: 100%;
+    padding: 30px 0;
+    text-transform: uppercase;
+    font-size: 17px;
+    background: #222;
+    text-align: center;
+}
+
+.detail-randoms .random {
+    float: left;
+    width: 33.3333%;
+    position: relative;
+    overflow: hidden;
+}
+
+.detail-randoms .random .randoms-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.detail-randoms .random .randoms-img.sOn {
+    z-index: 9;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.detail-related {
+    width: 100%;
+    /*border-top: solid 40px #dddddd;*/
+    background: #222;
+    position: relative;
+    /*height: 500px;*/
+}
+
+.detail-related h4 {
+    font-size: 15px;
+    height:60px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    width:25%;
+    left:0;
+    text-align: center;
+    
+}
+
+.detail-related .related-title {
+    float: left;
+    width: 25%;
+    color: #ffffff;
+    padding: 50px 20px;
+    text-transform: uppercase;
+    font-family: Aharoni, "Renogare";
+    font-size: 17px;
+}
+
+.ricos {
+    position: absolute;
+    left: 20px;
+    bottom: calc(7.5% - 10px);
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    font-family: "iconfont" !important;
+}
+
+.ricos:before {
+    content: "\e600";
+}
+
+.detail-related .related-links {
+    width: 75%;
+}
+
+.detail-related .related-links .swiper-slide {
+    width: 33.3333333%;
+}
+
+.detail-related .related-links .swiper-slide a {
+    display: block;
+    width: 100%;
+}
+
+
+/*------------------------------------------*/
+
+
+/*  contact  */
+
+
+/*------------------------------------------*/
+
+.contact-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    background: url(../images/contactBg.jpg) 50% no-repeat;
+    background-size: cover;
+}
+
+.contact {
+    position: absolute;
+    top: 50%;
+    left: calc(7.5% - 10px);
+    right: calc(7.5% - 20px);
+    line-height: calc(16px + 0.5vw);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.contact h2 {
+    width: 100%;
+    font-family: Aharoni, 'Renogare';
+    font-size: 21px;
+    display: none;
+    padding-bottom: 20px;
+    text-transform: none;
+}
+
+.contact h2 span {
+    font-size: 16px;
+    font-family: NSimsun;
+}
+
+.contact .address {
+    line-height: 55px;
+    font-size: 57px;
+    font-family: 'Peace Sans';
+    text-transform: uppercase;
+    font-family: Aharoni, 'Renogare';
+    /* ahar##oni*/
+    display: none;
+}
+
+.contact .address.ch {
+    font-size: 27px;
+    font-family: NSimsun,Simsun;
+}
+
+.contact .view-map {
+    display: inline-block;
+    /*background-color: #e72027;*/
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Cordia";
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 2px;
+    letter-spacing: 1px;
+    display: none;
+}
+
+.contact .mails li {
+    float: left;
+    width: 24%;
+    padding-top: 0px;
+    font-family: 'Arial';
+    display: none;
+}
+
+.contact .mails li h3 {
+    width: 100%;
+    /*color: #e60012;*/
+    font-family: Aharoni, 'Renogare';
+    /* ahar##oni*/
+    font-size: 18px;
+}
+.contact .mails li h3 .ch{
+    font-size:14px;
+    font-family:NSimsun,Simsun;
+}
+
+.contact .mails li span {
+    font-size: 17px;
+    font-family: 'Cordia';
+    display: none;
+}
+
+.mails a,
+.tell a {
+    color: #fff
+}
+
+.contact .tell,
+.contact .tell span {
+    width: 100%;
+    display: block;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 17px;
+    font-family: 'Cordia';
+    display: none;
+}
+
+.contact .tell span i {
+    color: #e60012;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: Aharoni, 'Renogare';
+    font-size: 13px;
+}
+
+.contact .contact-share {
+    padding-left: 0;
+}
+
+.contact .contact-share a {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 20px 15px 0 0;
+    display: none;
+}
+
+
+/*------------------------------------------*/
+
+
+/*  careers  */
+
+
+/*------------------------------------------*/
+
+.wrap-bg {
+    /*max-width: 950px;*/
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.about .wrap-bg {
+    background: #eee;
+}
+
+.careers {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Arial";
+}
+
+.careers-list {
+    float: left;
+    /*width: calc(100% - 340px);*/
+    width: 100%;
+    /*min-height: 1800px;*/
+    overflow: hidden;
+}
+
+.careers-lists {
+    width: 100%;
+    /*padding-bottom: 10px;*/
+}
+
+.careers .apply {
+    background: rgb(51, 44, 43);
+}
+
+.careers .apply a {
+    color: #fff;
+    font-family: Renogare;
+    padding: 30px;
+    display: block;
+    font-size: 13px;
+}
+
+.careers-lists h2 {
+    margin: 0 calc(6% + 10px);
+    border-bottom: solid #FFFFFF 2px;
+    /*font-weight: bold;*/
+    line-height: 28px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-family: Aharoni, 'Renogare';
+    /* ahar##oni*/
+    font-size: 21px
+}
+
+.careers-lists li {
+    width: 100%;
+    display: block;
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.careers-lists li h3 {
+    width: 100%;
+    position: relative;
+    line-height: 32px;
+    padding: 0 calc(6% + 10px);
+    font-family: 'Cordia';
+    font-size: 21px;
+}
+
+.careers-lists li h3.cView {
+    background: rgba(160, 160, 160, 0.9);
+}
+
+.careers-lists li h3 .btn-view {
+    position: absolute;
+    top: 0;
+    right: calc(6% + 10px);
+    cursor: pointer;
+}
+
+.careers-lists li h3 .btn-view i {
+    font-family: "iconfont" !important;
+    font-size: 14px;
+}
+
+.careers-lists li .careers-text {
+    width: 100%;
+    line-height: 22px;
+    color: #221815;
+    padding: 20px calc(6% + 10px);
+    padding-bottom: 80px;
+    position: relative;
+    display: none;
+    background: #fff;
+}
+
+.careers-lists li .careers-text h4 {
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 42px;
+    font-family: Renogare
+}
+
+.careers-lists li .careers-text p {
+    width: 100%;
+    padding-bottom: calc(10% + 10px);
+    font-size: 17px;
+    font-family: 'Cordia';
+}
+
+.careers-lists li .careers-text .btn-app {
+    width: 100%;
+    display: block;
+    background: #221815;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 25px calc(10% - 10px);
+    position: absolute;
+    left: 0;
+    /*bottom: 10px;*/
+    bottom: 0;
+    color: #fff;
+    font-family: Renogare;
+    padding: 30px;
+    display: block;
+    font-size: 13px;
+}
+.border-tb{
+    border-top:1px dashed #cccccc;
+    border-bottom:1px dashed #cccccc;
+    background-color: white;
+    color:black;
+}
+.careers-award-list{
+    padding-bottom: 60px;
+}
+.award-title{
+    background-color: #EEEEEE;
+    font-size: 32px;
+    color:black;
+    text-align: center;
+    padding: 40px;
+}
+
+.ban-small {
+    float: left;
+    /*width: 340px;*/
+    width: 40%;
+    display: block;
+}
+
+.careers-person {
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.careers-person li {
+    width: 33.333%;
+    float: left;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJBAMAAAD5iKAgAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAeUExURSIiIl9fXzAwMFhYWEdHRyoqKiUlJT4+Pk9PTzY2Nn4lXf8AAAA+SURBVAjXYxDlKFBmY1BmE2VxYGBxUGQQYkgwYm8IZGgITLBkZ+jkNEhMYEgMaOc0YGAySAxwZ1BwYRJgBADleQkgd0xZkQAAAABJRU5ErkJggg==");
+}
+
+.careers-person li .careers-person-img {
+    overflow: hidden;
+    width: 100%;
+    text-align: justify;
+}
+
+.careers-person li .careers-person-text {
+    overflow: hidden;
+    width: 100%;
+    padding: calc(5% + 10px);
+}
+
+.careers-person li .careers-person-text h4 {
+    text-transform: uppercase;
+    color: #221815;
+    width: 100%;
+    font-size: 16px;
+}
+
+.careers-person li .careers-person-text p {
+    padding: 10px 0 20px;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Cordia';
+    color: #fff;
+}
+
+.careers-person li .careers-person-text p.ch {
+    font-family: NSimsun,Simsun, Nsimsun;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+/*------------------------------------------*/
+
+
+/*  belief  */
+
+
+/*------------------------------------------*/
+
+.belief-brief {
+    width: 100%;
+    background-color: #fff000;
+    overflow: hidden;
+}
+
+.belief-brief .brief-left,
+.belief-brief .brief-right {
+    float: right;
+    width: 50%;
+    height: 740px;
+    position: relative;
+}
+
+.belief-brief .brief-left {}
+
+.belief-brief .brief-right {
+    background: #fff001;
+}
+
+.belief-brief .brief-left a {
+    display: block;
+    /*padding: calc(30px - 2%);*/
+    /*height: 250px;*/
+    color: #fff;
+}
+
+.belief-brief .brief-left h3,
+.belief-brief .brief-right h3 {
+    width: 100%;
+    font-size: 21px;
+    font-family: Aharoni, "Renogare";
+    /* ahar##oni*/
+    padding: 10px 0;
+    /*font-weight: bolder;*/
+}
+
+.belief-brief .brief-right h4 {
+    width: 100%;
+    font-size: 19px;
+    font-family: Aharoni, "Renogare";
+    padding: 10px 0 20px;
+}
+
+.belief-brief .brief-right a {
+    display: block;
+    padding: calc(40px + 15%);
+    /*height: 300px;*/
+    color: white;
+    /*background-color: #fff000;*/
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.belief-brief p {
+    display: -webkit-box;
+    /*height: 144px;*/
+    line-height: 30px;
+    text-align: left;
+    display: -moz-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+    font-size: 18px;
+    font-family: Renogare;
+    letter-spacing: 1px;
+    /* ahar##oni*/
+}
+
+.belief-brief p.ch {
+    font-size: 16px;
+    font-family: NSimsun,Simsun, NSimsun;
+}
+
+.belief-items li {
+    float: left;
+    width: 50%;
+    height: 740px;
+    position: relative;
+    overflow: hidden;
+}
+
+.belief-items li.bBox a {
+    height: 50%;
+}
+
+.belief-items li.bBox a img {
+    width: 408px;
+    height: 100%;
+}
+.belief-items li.bBox:first-child a img{
+    position: absolute;
+    right:0px;
+}
+
+.belief-items li .belief-text {
+    float: left;
+    width: 270px;
+    padding: 40px 20px 0;
+    color: #fff;
+    font-size: 15px;
+    font-family: Renogare;
+    /* ahar##oni*/
+}
+
+.belief-items li .belief-text h4,
+.belief-brief .brief-left h4 {
+    padding-top: 20px;
+    background: url(http://images-1253411363.cosgz.myqcloud.com/dashed_white.png) no-repeat left bottom;
+    background-size: 20px auto;
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: NSimsun,Simsun, NSimsun;
+}
+
+.belief-items li .belief-text h4 span {
+    font-size: 16px;
+    font-family: NSimsun,Simsun, NSimsun;
+}
+
+.belief-items li .belief-text h3 {
+    font-family: Aharoni, 'Renogare';
+    /* ahar##oni*/
+    font-size: 21px;
+    width: 100%;
+    display: block;
+    padding-bottom: 0;
+    position: relative;
+}
+
+.belief-items li.bItems .belief-text {
+    position: absolute;
+    bottom: 40px;
+    left: 46px;
+    padding: 15px;
+    width: 100%;
+    color: #fff;
+}
+
+.belief-items li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.belief-items li a.fl .belief-text {
+    clear: left;
+    float: right;
+}
+
+.belief-items li a.fl img {
+    float: left;
+    display: block;
+}
+
+
+/*.belief-items li a.bg9f{ background-color: #9f9f9f; }*/
+
+.belief-items li.bItems img {
+    width: 100%;
+    height: 100%;
+}
+
+.belief-items li a img {
+    height: 100%;
+}
+
+.belief-items li a:hover {
+    background-color: #9f9f9f;
+}
+
+
+/*------------------------------------------*/
+
+
+/*  services  */
+
+
+/*------------------------------------------*/
+
+.vision {
+    /*background-color: #fff;*/
+    padding: 0;
+    position: relative;
+    font-family: Aharoni, "Renogare";
+    width: 100%;
+}
+
+.vision .inner {
+    text-align: center;
+    width: 750px;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    /*padding: 40px 0px;*/
+
+}
+
+.vision .inner h3 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: Aharoni, 'Renogare';
+    /* ahar##oni*/
+    /*Renogare*/
+}
+
+.vision .inner h4 {
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0 auto 100px;
+    padding: 10px 5%;
+    max-width: 850px;
+    font-weight: normal;
+    font-family: Cordia;
+    text-align: center;
+    color: #fff;
+}
+
+.vision .inner h5 {
+    color: #fff;
+    padding: 10px;
+}
+
+.vision .inner ul {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.vision .inner ul li {
+    float: left;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    width: 33.333333333333336%;
+    padding: 0;
+    position: relative;
+}
+
+.vision .inner ul li .box {
+    background: #eee;
+    padding: 50px 0;
+}
+
+.vision .inner ul li .box1 {
+    background: #eee
+}
+
+.vision .inner ul li .box2 {
+    background: #eee
+}
+
+.vision .inner ul li .box3 {
+    background: #eee
+}
+
+.vision .ulbox ul {
+    margin: 0;
+    padding: 0;
+}
+
+.vision .inner ul li .box .innerbox {
+    width: 150px;
+    height: 190px;
+    border: 6px solid #313187;
+    padding-top: 50px;
+}
+
+.vision .inner ul li .box .innerbox p {
+    font-size: 24px;
+    font-family: Aharoni, "Renogare";
+    color: #302824
+}
+
+
+/*.vision .inner ul li:nth-child(1) .snap-container {background:url(k.png) no-repeat center center;background-size:100% auto}
+.vision .inner ul li:nth-child(2) .snap-container {background:url(k.png) no-repeat center center;background-size:auto 100%}
+.vision .inner ul li:nth-child(3) .snap-container {background:url(k.png) no-repeat center center;background-size:100% auto}*/
+
+.vision .inner ul li p {
+    font-size: 17px;
+    line-height: 20px;
+    padding: 20px 30px;
+    font-family: "Cordia";
+    color: #fff;
+}
+
+.vision .inner ul li .snap-wrapper {
+    width: 175px;
+    height: 175px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 33px;
+    max-width: 100%;
+    /*background:url(n.jpg) no-repeat center bottom fixed;background-size:100% auto*/
+}
+
+.vision .inner ul li .snap-container {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+.vision .inner ul li .snap-container svg {
+    width: 100%;
+    height: 100%
+}
+
+
+/*.vision .inner ul li i {
+    font-size: 20px;
+    position: absolute;
+    top: 87.5px;
+    right: -10px
+}*/
+
+.vision .inner ul li h5 {
+    font-family: Aharoni, "Renogare";
+    font-weight: 700;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    display: table;
+    color: #302f2f
+}
+
+.vision .inner ul li h5 span {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.serve-item {
+    width: 100%;
+    font-family: Aharoni, "Renogare";
+    text-align: center;
+}
+
+.serve-item .sItem-title {
+    width: 750px;
+    margin: auto;
+    max-width: 100%;
+    padding: 30px 0 25px;
+    background: #0b0b0b;
+    /*font-size: 1.25em;*/
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.serve-item .sItem {
+    float: left;
+    width: 50%;
+    padding: 80px;
+    color: #fff;
+    position: relative;
+}
+
+.serve-item .sItem .icon-partner {
+    width: 40%;
+    padding: calc(5% - 20px);
+    height: 50px;
+    display: inline-block;
+    background: #b5b6b6;
+}
+
+.serve-item .sItem h4 {
+    width: 100%;
+    padding: 0;
+    font-size: 21px;
+    font-family: Aharoni, "Renogare";
+    /* ahar##oni*/
+    /*background: #222;*/
+}
+
+.serve-item .sItem p,
+.team-title p,
+.serve-item .tgrid .tgrid-item .tgrid-item-text p {
+    font-family: "Cordia";
+    font-size: 22px;
+    line-height: 20px;
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    /*background: #222;*/
+}
+
+.serve-item .sItem p.ch {
+    font-size: 16px;
+}
+
+.team-title p {
+    color: #000;
+}
+
+.serve-item p {
+    text-align: left;
+}
+
+.serve-item .sItem.one {
+    padding: 40px 66px;
+    height: 600px;
+}
+
+.serve-item .sItem.one .sItem-img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.serve-item .sItem.one .sItem-img .img-inner {
+    width: 50%;
+    float: left;
+}
+
+.serve-item .sItem.two {
+    margin-top: 80px;
+    height: 520px;
+}
+
+.serve-item .sItem.three {
+    min-height: 447px;
+}
+
+.serve-item .sItem.four {
+    padding: 0;
+}
+
+.serve-title {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Aharoni, "Renogare";
+    background: #222;
+    margin: auto;
+}
+
+.serve-list {
+    width: 50%;
+    padding: calc(4% - 20px) 0;
+    text-align: center;
+    background: #222;
+    margin: auto;
+    font-family: Aharoni, "Renogare";
+    /* ahar##oni*/
+}
+
+.serve-list li {
+    float: left;
+    width: 18%;
+    padding: 0 10px;
+    /*min-height: 300px;*/
+}
+
+.serve-list li h3 {
+    width: 100%;
+    padding-bottom: calc(7% - 5px);
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-family: Aharoni, "Renogare";
+    text-transform: uppercase;
+}
+
+.serve-list p {
+    font-size: 17px;
+    font-family: "Cordia";
+    line-height: 20px;
+    text-align: left;
+}
+
+.serve-workFlow {
+    width: 100%;
+    min-height: 276px;
+}
+
+
+/*------------------------------------------*/
+
+
+/*  about  */
+
+
+/*------------------------------------------*/
+
+.about-img {
+    width: 100%;
+}
+
+.about-img>a {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+}
+
+.about-img>a.aw2 {
+    width: 50%;
+}
+
+.team-title {
+    width: 100%;
+    background: #eee;
+    padding: 30px calc(7% - 10px);
+    color: #231815;
+    font-size: 1em;
+    text-align: center;
+    font-family: Aharoni, "Renogare";
+}
+
+.team-title .icon-partner {
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    background: #b5b6b6;
+}
+
+.team-title h4,
+.team-item .tgrid .tgrid-item .tgrid-item-text h4 {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: Aharoni, "Renogare";
+}
+
+.team-title h4 {
+    font-size: 18px;
+}
+
+.about .team-item .tgrid-item-text p {
+    padding: 0 10px
+}
+
+.about .team-item .tgrid-item-text p.ch {
+    font-family: NSimsun;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height:27px;
+}
+
+.team-item {
+    position: relative;
+    opacity: 1;
+    transition: .2s ease;
+    background: #eee;
+}
+
+
+.team-item .firstGrid {
+    width: 100%;
+}
+
+.team-item .firstGrid img {
+    width: 66.666%;
+    float: left;
+}
+
+.team-item .firstGrid .tgrid-item-text {
+    width: 33.333%;
+    float: left;
+    padding: 105px 4%;
+}
+
+.team-item .firstGrid .tgrid-item-text .splitor_white.large {
+    width: 35px;
+    height: 60px;
+    display: inline-block;
+    background: url(http://images-1253411363.cosgz.myqcloud.com/dashed_white.png) no-repeat center center;
+    background-size: 100%;
+    margin-right: -5px;
+    margin-left: -26px;
+    vertical-align: bottom;
+}
+
+.team-item .tgrid {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.team-item .tgrid .tgrid-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    overflow: hidden;
+}
+
+.team-item img {
+    opacity: 1;
+    transform: scale(1);
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.team-item .tgrid-item-text {
+    width: 100%;
+    padding: 30px calc(7.5% - 10px);
+    line-height: 24px;
+    font-size: 16px;
+    text-align: left;
+    min-height: 320px;
+}
+
+.team-item .tgrid .tgrid-item:nth-child(1) {
+    padding-top: calc(10% - 10px);
+}
+
+.team-item .tgrid .tgrid-item:nth-child(3) {
+    padding-top: calc(20% - 10px);
+}
+
+.box {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/*ios */
+
+.pos-rel {
+    position: relative;
+}
+
+.pads {
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    display: block;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    margin:auto;
+    min-width:1400px;
+}
+
+
+/*load*/
+
+#loading {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.spinner {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.double-bounce1,
+.double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #007d7d;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: bounce 2.0s infinite ease-in-out;
+    animation: bounce 2.0s infinite ease-in-out;
+    line-height: 100px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes bounce {
+    0%,
+    100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+.vision .inner ul li .snap-container svg path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: path 150s linear infinite;
+}
+
+@keyframes path {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+/* text*/
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.f13 {
+    font-size: 13px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f15 {
+    font-size: 15px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.f18 {
+    font-size: 18px;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.f22 {
+    font-size: 22px;
+}
+
+.em {
+    text-indent: 2em;
+}
+
+.hei {
+    color: #000;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.Arial {
+    font-family: "Arial", Helvetica, sans-serif;
+}
+
+.yahei {
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.tc {
+    text-align: center;
+}
+
+.bg-white {
+    background: #ffffff;
+}
+.bg-black {
+    background: #020200;
+}
+
+/*2017.02.19*/
+
+.ban-text {
+    font-family: 'cordia';
+    color: #fff;
+    position: absolute;
+    bottom: -100%;
+    left: 7.5%;
+    display: inline-block;
+    z-index: 10;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    -webkit-transition: bottom .5s ease;
+    -moz-transition: bottom .5s ease;
+    -ms-transition: bottom .5s ease;
+    -o-transition: bottom .5s ease;
+    transition: bottom .5s ease;
+    max-width: 650px
+}
+
+.ban-text span {
+    background-color: #ffffff;
+    color: #2e2623;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Cordia';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 14px;
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+    -ms-transition: width .5s ease;
+    -o-transition: width .5s ease;
+    transition: width .5s ease;
+    margin-bottom: 24px;
+}
+
+.ban-text h3 span {
+    margin-bottom: 0;
+}
+
+.ban-text p {
+    font-family: 'Cordia';
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.home .ban-text h3 {
+    text-transform: uppercase;
+}
+
+.ban-text h3 {
+    font-family: 'Peace Sans';
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 46px;
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+    -ms-transition: width .5s ease;
+    -o-transition: width .5s ease;
+    transition: width .5s ease;
+    margin-bottom: 7px
+}
+
+.ban-text h3 span {
+    background: transparent;
+    color: #fff;
+    margin-top: 10px;
+    font-family: NSimsun;
+    padding: 5px;
+    background: #222;
+    font-size: 20px;
+}
+
+
+/*
+@media only screen and (max-width: 800px) {
+  .ban-text {max-width: 75%}
+  .ban-text h3 {font-size:70px!important;line-height:51px;}
+
+}@media only screen and (max-width: 700px) {
+  .ban-text h3 {font-size:60px!important;line-height:44px;}
+
+}@media only screen and (max-width: 600px) {
+  .ban-text h3 {font-size:50px!important;line-height:37px;}
+
+}@media only screen and (max-width: 500px) {
+  .ban-text {max-width: 70%}
+  .ban-text h3 {font-size:38px!important;line-height:30px;}
+
+}@media only screen and (max-width: 400px) {
+  .ban-text h3 {font-size:32px!important;line-height:26px;}
+
+}@media only screen and (max-width: 350px) {
+  .ban-text h3 {font-size:30px!important;line-height:24px;}
+}*/
+
+
+/* Effect 2: Move Up */
+
+.grid.effect-2 li.animate {
+    -webkit-transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    transform: translateY(200px);
+    -webkit-animation: moveUp 0.65s ease forwards;
+    -moz-animation: moveUp 0.65s ease forwards;
+    animation: moveUp 0.65s ease forwards;
+}
+
+@-webkit-keyframes moveUp {
+    to {
+        -webkit-transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes moveUp {
+    to {
+        -moz-transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+@-webkit-keyframes bounceInUp {
+    0%,
+    100%,
+    60%,
+    75%,
+    90% {
+        -webkit-animation-timing-function: cubic-bezier(0.215, .61, .355, 1);
+        animation-timing-function: cubic-bezier(0.215, .61, .355, 1)
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 3000px, 0);
+        transform: translate3d(0, 3000px, 0)
+    }
+    90% {
+        -webkit-transform: translate3d(0, -0, 0);
+        transform: translate3d(0, -0, 0)
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes bounceInUp {
+    0%,
+    100%,
+    75%,
+    90% {
+        -webkit-animation-timing-function: cubic-bezier(0.215, .61, .355, 1);
+        animation-timing-function: cubic-bezier(0.215, .61, .355, 1)
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 3000px, 0);
+        transform: translate3d(0, 3000px, 0)
+    }
+    90% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.bounceInUp {
+    -webkit-animation-name: bounceInUp;
+    animation-name: bounceInUp
+}
+
+.footer .column.three h4 span {
+    vertical-align: bottom;
+    font-family: Aharoni;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+.footer .column.three h4 span.ch {
+    vertical-align: middle;
+    font-family: NSimsun,Simsun;
+    font-size: 15px;
+}
+
+.splitor {
+    width: 15px;
+    height: 16px;
+    display: inline-block;
+    background: url(http://images-1253411363.cosgz.myqcloud.com/dashed.png) no-repeat center center;
+    background-size: 100%;
+    vertical-align: middle
+}
+
+.splitor.large {
+    width: 30px;
+    height: 60px;
+    display: inline-block;
+    background: url(http://images-1253411363.cosgz.myqcloud.com/dashed.png) no-repeat center center;
+    background-size: 100%;
+}
+
+.splitor_white {
+    width: 15px;
+    height: 16px;
+    display: inline-block;
+    background: url(http://images-1253411363.cosgz.myqcloud.com/dashed_white.png) no-repeat center center;
+    background-size: 100%;
+    vertical-align: middle
+}
+
+.splitor_white.large {
+    width: 30px;
+    height: 60px;
+    display: inline-block;
+    background: url(http://images-1253411363.cosgz.myqcloud.com/dashed_white.png) no-repeat center center;
+    background-size: 80%;
+}
+
+.footer .column.three {
+    padding-right: 50px;
+}
+
+.footer .column.four {
+    padding-right: 0;
+    width: 600px;
+    max-width: 560px;
+}
+
+.footer .column.four .talk li {
+    display: inline-block;
+    width: 49%;
+}
+
+.bg-common {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJBAMAAAD5iKAgAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAeUExURSIiIl9fXzAwMFhYWEdHRyoqKiUlJT4+Pk9PTzY2Nn4lXf8AAAA+SURBVAjXYxDlKFBmY1BmE2VxYGBxUGQQYkgwYm8IZGgITLBkZ+jkNEhMYEgMaOc0YGAySAxwZ1BwYRJgBADleQkgd0xZkQAAAABJRU5ErkJggg==");
+}
+
+.bg-common-white {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAzUExURf7+/srKyre3t8PDw/Ly8pubm+jo6JaWlvv7+6Kiou3t7d/f3+Pj49HR0b29vbGxsdjY2EG0cKsAAAA/SURBVAjXJchbEgAQDMDAoOrN/W9L62dnEs5iNGoRnJ8w/4uBzg6oJRnyy4SSHpaKkza9VJw2CRFHLDEG6yAXcuACBEB0kuwAAAAASUVORK5CYII=");
+}
+
+.careers .text-title p {
+    color: #fff;
+    font-size: 18px;
+    font-family: Renogare;
+    /* ahar##oni*/
+    max-width: 1000px;
+}
+
+.careers .text-title p.ch {
+    font-family: NSimsun;
+}
+
+.about .text-title p {
+    color: rgb(116, 116, 116);
+    font-size: 18px;
+    font-family: Aharoni, Renogare;
+    /* ahar##oni*/
+    max-width: 80%;
+}
+
+.about .text-title p.ch {
+    font-family: NSimsun,Simsun, NSimsun;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.about .team-item {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJBAMAAAD5iKAgAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAeUExURSIiIl9fXzAwMFhYWEdHRyoqKiUlJT4+Pk9PTzY2Nn4lXf8AAAA+SURBVAjXYxDlKFBmY1BmE2VxYGBxUGQQYkgwYm8IZGgITLBkZ+jkNEhMYEgMaOc0YGAySAxwZ1BwYRJgBADleQkgd0xZkQAAAABJRU5ErkJggg==");
+}
+
+.award .col {
+    display: inline-block
+}
+
+.award .col-1 {
+    width: 40%;
+    border-right: 2px solid #E7212A;
+    padding: 50px 0 216px;
+    vertical-align: top;
+}
+
+.award .col-2 {
+    width: 59%;
+    vertical-align: top;
+    padding: 50px 0 200px;
+}
+
+.award .col-1 h1 {
+    font-size: 62px;
+    font-family: Renogare, NSimsun;
+    /* ahar##oni*/
+    text-align: right;
+    letter-spacing: 5px;
+    padding-right: 30px;
+    color: #f10505
+}
+
+.award .col-1 p {
+    font-size: 50px;
+    font-family: NSimsun;
+    text-align: right;
+    letter-spacing: 38px;
+    color: #f10505;
+}
+
+.award .col-2 h1 {
+    font-size: 62px;
+    font-family: Aharoni,Renogare, NSimsun;
+    /* ahar##oni*/
+    text-align: left;
+    letter-spacing: 0;
+    padding-left: 30px;
+    color: #f10505
+}
+
+.award .col-2 p {
+    font-size: 24px;
+    font-family: Aharoni,Renogare, NSimsun;
+    /* ahar##oni*/
+    text-align: left;
+    padding-left: 30px;
+    color: #f10505;
+    padding-top: 30px;
+}
+
+.news .col {
+    display: inline-block
+}
+
+.news .col-1 {
+    width: 40%;
+    border-right: 2px solid #E7212A;
+    padding: 50px 0 160px;
+    vertical-align: top;
+}
+
+.news .col-2 {
+    width: 59%;
+    vertical-align: top;
+    padding: 50px 0 200px;
+}
+
+.news .col-1 h1 {
+    font-size: 62px;
+    font-family: Aharoni,Renogare, NSimsun;
+    /* ahar##oni*/
+    text-align: left;
+    letter-spacing: 5px;
+    color: #f10505
+}
+
+.news .col-1 p {
+    font-size: 66px;
+    font-family: NSimsun;
+    text-align: left;
+    letter-spacing: 16px;
+    color: #f10505;
+}
+
+.news .col-2 h1 {
+    font-size: 62px;
+    font-family: Aharoni,Renogare, NSimsun;
+    /* ahar##oni*/
+    text-align: left;
+    letter-spacing: 0;
+    padding-left: 30px;
+    color: #f10505
+}
+
+.news .col-2 p {
+    font-size: 24px;
+    font-family: Aharoni,Renogare, NSimsun;
+    /* ahar##oni*/
+    text-align: left;
+    padding-left: 30px;
+    color: #f10505;
+    padding-top: 30px;
+}
+
+.award .news-detail-title p,
+.news .news-detail-title p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.award .news-detail-title p.ch,
+.news .news-detail-title p.ch {
+    font-family: NSimsun;
+    padding-left: 30px;
+    padding-right: 30px;
+}

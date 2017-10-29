@@ -1,0 +1,36 @@
+<?php return array (
+  'banner' => 
+  array (
+    0 => 
+    array (
+      'pic' => 'assets/images/uploads/150252691415.jpg',
+      'title' => '123',
+      'sub_title' => '123',
+      'url' => 'home',
+    ),
+  ),
+  'bigtitle' => 'ADVENTURE<br/>IMAGINE<br/>DIVERSITY<br/><span>冒險，想象，多樣性</span>',
+  'visiontitle' => 'Our Vison',
+  'content' => 'For the space to give the ultimate sensory poem',
+  'content_ch' => '為空間賦予極致的感官之詩',
+  'ws_title' => 'Working Space<i class=\'splitor_white\'></i>工作空間',
+  'ls_title' => 'Living Space<i class=\'splitor_white\'></i>生活空間',
+  'ps_title' => 'Playing Space<i class=\'splitor_white\'></i>娛樂空間',
+  'ad_title' => 'Advocate<i class=\'splitor_white large\'></i>主张',
+  'cr_title' => 'Create <i class=\'splitor_white large\'></i>創造 ',
+  'cr_desc' => 'Create as a revolution. Inherent thinking such as imagination of poison, is trapped in the cage, is the footsteps of the stop',
+  'cr_desc_ch' => '創造如同壹場革命.固有思維如想象的毒藥,是困在原地的牢籠,是止步不前的腳鏈',
+  'im_title' => 'Imagine <i class=\'splitor_white large\'></i>想象',
+  'im_desc' => 'Imagine as a knife, it pierced the front of the world, letting you peep another group possible, it was unrestrained, like another',
+  'im_desc_ch' => '想象如同一把刀，它划破眼前世界，让你窥视另一种可能，它天马行空，就像另一个自己',
+  'di_title' => 'Diversity <i class=\'splitor_white large\'></i>多样性',
+  'di_desc' => 'Diversity is not a characteristic of life, it is a necessary condition for life, like air and water in general, standardized as a brutal growth of commercial conspiracy',
+  'di_desc_ch' => '多样性不是生活的特色，它是生活的必要条件，像空气和水一般，标准化如一场野蛮生长的商业阴谋',
+  'se_title' => 'Service Content <i class=\'splitor_white large\'></i> 服務內容',
+  'ar_title' => 'Architecture',
+  'cl_title' => 'Club/hosplitly',
+  're_title' => 'Restaurant',
+  'wo_title' => 'Workplace',
+  'ho_title' => 'House',
+  'page_name' => 'serve',
+);

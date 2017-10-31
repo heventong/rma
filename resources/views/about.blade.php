@@ -7,6 +7,7 @@
         .team-title h4, .team-item .tgrid .tgrid-item .tgrid-item-text h4{line-height: 40px;font-size:1.1em}
         .about .team-item .tgrid-item-text p.ch{font-size: 1.1em;}
         .about .team-item .tgrid-item-text p{font-size: 1.1em;}
+        .name em{font-family: "NSimsun";font-site:'12px'}
     </style>
     <!-- loading end -->
     <div class="wrapper about">
@@ -53,7 +54,7 @@
                         <h4><span class="dib vm ">
                             @lang("about.founder.title")
                         </span>
-                            <i class="splitor_white large"></i>
+                            {{--<i class="splitor_white large"></i>--}}
                             <span class="dib vm ">
                             @lang("about.founder.title2")
                         </span>
@@ -61,7 +62,7 @@
                             <br/>
                         </h4>
                         <h4>@lang("about.founder.name")</h4>
-                        <p class="p0 pt20">
+                        <p class="p0 pt20" style="font-family: 'Renogare';letter-spacing: 2px;font-size: 17px;">
                             "@lang("about.founder.motto")"</p>
                         <br/>
                         <p class="p0 pt20">@lang("about.founder.motto_ch")</p>
@@ -79,7 +80,7 @@
                             <h4>
                                 <span class='dib vm'>@lang("about.sd.title")</span>
                                 <br/>
-                                <span class="dib vm">@lang("about.sd.name")</span>
+                                <span class="dib vm name">@lang("about.sd.name")</span>
                             </h4>
                             <p>@lang("about.sd.desc")</p>
                             <p class="ch">@lang("about.sd.desc_ch")</p>
@@ -92,7 +93,7 @@
                             <h4>
                                 <span class='dib vm'>@lang("about.bd.title")</span>
                                 <br/>
-                                <span class="dib vm">@lang("about.bd.name")</span>
+                                <span class="dib vm name">@lang("about.bd.name")</span>
                             </h4>
                             <p>@lang("about.bd.desc")</p>
                             <p class="ch">@lang("about.bd.desc_ch")</p>
@@ -104,7 +105,7 @@
                             <h4>
                                 <span class='dib vm'>@lang("about.dd.title")</span>
                                 <br/>
-                                <span class="dib vm">@lang("about.dd.name")</span>
+                                <span class="dib vm name">@lang("about.dd.name")</span>
                             </h4>
                             <p>@lang("about.dd.desc")</p>
                             <p class="ch">@lang("about.dd.desc_ch")</p>
@@ -117,7 +118,7 @@
                             <h4>
                                 <span class='dib vm'>@lang("about.td.title")</span>
                                 <br/>
-                                <span class="dib vm">@lang("about.td.name")</span>
+                                <span class="dib vm name">@lang("about.td.name")</span>
                             </h4>
                             <p>@lang("about.td.desc")</p>
                             <p class="ch">@lang("about.td.desc_ch")</p>
@@ -129,7 +130,7 @@
                             <h4>
                                 <span class='dib vm'>@lang("about.pm.title")</span>
                                 <br/>
-                                <span class="dib vm">@lang("about.pm.name")</span>
+                                <span class="dib vm name">@lang("about.pm.name")</span>
                             </h4>
                             <p>@lang("about.pm.desc")</p>
                             <p class="ch">@lang("about.pm.desc_ch")</p>
@@ -141,7 +142,7 @@
                             <h4>
                                 <span class='dib vm'>@lang("about.ff.title")</span>
                                 <br/>
-                                <span class="dib vm">@lang("about.ff.name")</span>
+                                <span class="dib vm name">@lang("about.ff.name")</span>
                             </h4>
                             <p>@lang("about.ff.desc")</p>
                             <p class="ch">@lang("about.ff.desc_ch")</p>
@@ -153,7 +154,7 @@
                             <h4>
                                 <span class='dib vm'>@lang("about.a.title")</span>
                                 <br/>
-                                <span class="dib vm">@lang("about.a.name")</span>
+                                <span class="dib vm name">@lang("about.a.name")</span>
                             </h4>
                             <p>@lang("about.a.desc")</p>
                             <p class="ch">@lang("about.a.desc_ch")</p>
@@ -165,7 +166,7 @@
                             <h4>
                                 <span class='dib vm'>@lang("about.dd2.title")</span>
                                 <br/>
-                                <span class="dib vm">@lang("about.dd2.name")</span>
+                                <span class="dib vm name">@lang("about.dd2.name")</span>
                             </h4>
                             <p>@lang("about.dd2.desc")</p>
                             <p class="ch">@lang("about.dd2.desc_ch")</p>

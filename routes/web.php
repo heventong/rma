@@ -54,6 +54,9 @@ function loadRoutes($locale){
     Route::any('/new', "NewController@index");
     Route::any('/newAdd', "NewController@newAdd");
     Route::any('/addupdate', "NewController@addupdate");
+    Route::any('/editcareers', "AdminController@editcareers");
+    Route::any('/addsavecareers', "AdminController@addsavecareers");
+    Route::any('/removecareer', "AdminController@removecareer");
 	foreach($route as $key=>$value){
 		Route::any("/".$value['url'], "NewController@ueditPage");
 	}

@@ -24,5 +24,22 @@
   'aw_title' => 'Award  <i class=\'splitor_white large \'></i> 项目奖项',
   'page_name' => 'careers',
   'page_type' => 'mobile',
-
+    'person1' =>
+        array (
+            'pic' => 'assets/images/person-08.jpg',
+            'title' => 'RMA Republic of the city from the uncompromising, adhere to the dream of people together, we built a purely business environment, advocating self-confidence, sunshine, inclusive, good values, we believe that the Republic is a beautiful and ideal design If you Lofty, determined to work hard to create value, then join it! Here, with more insights, with more like-minded counterparts!',
+            'sub_title' => 'RMA 共和都市由从不妥协、坚持梦想的人聚合而成,我们构建了纯粹的企业环境，崇尚自信、阳光、包容、善良的价值观,我们相信共和是个美好并可实现的设计理想',
+        ),
+    'person2' =>
+        array (
+            'pic' => 'assets/images/person-07.jpg',
+            'title' => 'RMA Republic of the city from the uncompromising, adhere to the dream of people together, we built a purely business environment, advocating self-confidence, sunshine, inclusive, good values, we believe that the Republic is a beautiful and ideal design If you Lofty, determined to work hard to create value, then join it! Here, with more insights, with more like-minded counterparts!',
+            'sub_title' => 'RMA 共和都市由从不妥协、坚持梦想的人聚合而成,我们构建了纯粹的企业环境，崇尚自信、阳光、包容、善良的价值观,我们相信共和是个美好并可实现的设计理想',
+        ),
+    'person3' =>
+        array (
+            'pic' => 'assets/images/person-09.jpg',
+            'title' => 'RMA Republic of the city from the uncompromising, adhere to the dream of people together, we built a purely business environment, advocating self-confidence, sunshine, inclusive, good values, we believe that the Republic is a beautiful and ideal design If you Lofty, determined to work hard to create value, then join it! Here, with more insights, with more like-minded counterparts!',
+            'sub_title' => 'RMA 共和都市由从不妥协、坚持梦想的人聚合而成,我们构建了纯粹的企业环境，崇尚自信、阳光、包容、善良的价值观,我们相信共和是个美好并可实现的设计理想',
+        ),
 );

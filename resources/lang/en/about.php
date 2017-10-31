@@ -27,7 +27,7 @@
   array (
     'pic' => 'assets/images/person-03.jpg',
     'title' => 'Senior Design<i class="splitor_white"></i>Jet Wong',
-    'name' => '設計總監 <i class="splitor_white"></i><em>黄永杰</em>',
+    'name' => '設計總監 <i class="splitor_white"></i>黄永杰',
     'desc' => 'The boundaries of physics and thought are gradually ablated in the designPerfect is bound',
     'desc_ch' => '物理及思想的邊界在設計中逐漸地消融',
   ),
@@ -90,7 +90,7 @@
   'award_title' => 'Award',
   'workLife' => 'work life',
   'teamHonour' => 'Awards <i class="splitor_white"></i> <span class="ch">團隊榮譽</span>',
-  '_token' => 'uRm0pyaoi02duk80mNjvNOWc98ecMF5pkmNfuu3J',
+  '_token' => '9U0iM6v5uEMZuHualSsU9v2dUDi5t12ItsHVoNnP',
   'page_name' => 'about',
   'model' => 'index',
 );

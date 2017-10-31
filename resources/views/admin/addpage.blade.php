@@ -32,17 +32,16 @@
                     <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-2">
 
                         <select id="model_change" name="model">
-                            <option value="index">index</option>
-                            <option value="about">about</option>
-                            <option value="belief">belief</option>
-                            <option value="contact">contact</option>
-                            <option value="home">home</option>
-                            <option value="news">news</option>
-                            <option value="award">award</option>
-                            <option value="serve">serve</option>
-                            <option value="belief">belief</option>
-                            <option value="careers">careers</option>
-                            <option value="xclub">detail</option>
+                            <option value="index">入口模版</option>
+                            <option value="about">我们模板</option>
+                            <option value="belief">信念模板</option>
+                            <option value="contact">联系模板</option>
+                            <option value="home">首页模板</option>
+                            <option value="news">新闻模块</option>
+                            <option value="award">荣耀模块</option>
+                            <option value="serve">专业模块</option>
+                            <option value="careers">同路模块</option>
+                            <option value="xclub">作品详细模块</option>
                         </select>
                     </div>
 

@@ -15,6 +15,9 @@
         .careers-last-lists h2{
             margin: 0 calc(6% + 10px);
         }
+        .careers-lists li .careers-text p{
+            padding-bottom:2%;
+        }
     </style>
     <!-- loading end -->
     <div class="wrapper careers">
@@ -60,62 +63,19 @@
                         <div class="careers-lists">
                             <h2>@lang("careers.in_title")</h2>
                             <ul>
+                                <?php $careers = DB::connection('sqlite')->select("select * from careers");
+                                ?>
+                                @if ($careers)
+                                @foreach($careers as $key => $value)
                                 <li>
-                                    <h3>@lang("careers.se_title") <span class="btn-view"><i class="icon-add"></i></span></h3>
+                                    <h3><?php echo $value->title?> <span class="btn-view"><i class="icon-add"></i></span></h3>
                                     <div class="careers-text">
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
+                                        <?php echo $value->content?>
                                         <a class="btn-app" href="#">Apply for this poistion</a>
                                     </div>
                                 </li>
-                                <li>
-                                    <h3>@lang("careers.de_title")<span class="btn-view"><i class="icon-add"></i></span></h3>
-                                    <div class="careers-text">
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <a class="btn-app" href="#">Apply for this poistion</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h3>@lang("careers.ju_title")<span class="btn-view"><i class="icon-add"></i></span></h3>
-                                    <div class="careers-text">
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <a class="btn-app" href="#">Apply for this poistion</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h3>@lang("careers.ju1_title")<span class="btn-view"><i class="icon-add"></i></span></h3>
-                                    <div class="careers-text">
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <a class="btn-app" href="#">Apply for this poistion</a>
-                                    </div>
-                                </li>
+                                @endforeach
+                                @endif
                                 <li>
                                 </li>
                             </ul>
@@ -123,36 +83,17 @@
                         <div class="careers-lists">
                             <h2>@lang("careers.ff_title")</h2>
                             <ul>
-                                <li>
-                                    <h3>@lang("careers.de1_title")<span class="btn-view"><i class="icon-add"></i></span></h3>
+                                <?php $careers2 = DB::connection('sqlite')->select("select * from careers2");
+                                ?>
+                                @foreach($careers2 as $key => $value)
+                                <li @if ($key == count($careers2)-1) class="border-tb" style="color:black" @endif >
+                                    <h3><?php echo $value->title?><span class="btn-view"><i class="icon-add"></i></span></h3>
                                     <div class="careers-text">
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
+                                        <?php echo $value->content?>
                                         <a class="btn-app" href="#">Apply for this poistion</a>
                                     </div>
                                 </li>
-                                <li class="border-tb" style="color:black">
-                                    <h3>@lang("careers.ju2_title")<span class="btn-view"><i class="icon-add"></i></span></h3>
-                                    <div class="careers-text">
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <a class="btn-app" href="#">Apply for this poistion</a>
-                                    </div>
-                                </li>
-
-
+                                @endforeach
                             </ul>
                         </div>
 
@@ -163,71 +104,26 @@
 
                 <div style="overflow: hidden;width:60%;float:left;">
                     <div class="award-title">
-                        <h2>@lang("careers.aw_title")</h2>
+                        <h2 style="font-family: 'Renogare','宋体';font-size: 1.4em;letter-spacing: 4px">@lang("careers.aw_title")</h2>
                     </div>
                     <div class="careers-list bg-common pt100 careers-award-list" >
 
                         <div class="careers-lists">
                             <h2>@lang("careers.in_title")</h2>
+                            <?php $careers_award = DB::connection('sqlite')->select('select * from careers_award');?>
                             <ul>
+                                @if ($careers_award)
+                                    @foreach($careers_award as $value)
                                 <li>
-                                    <h3>@lang("careers.se_title") <span class="btn-view"><i class="icon-add"></i></span></h3>
+                                    <h3><?php echo $value->title?> <span class="btn-view"><i class="icon-add"></i></span></h3>
                                     <div class="careers-text">
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
+                                        <?php echo $value->content;?>
                                         <a class="btn-app" href="#">Apply for this poistion</a>
                                     </div>
                                 </li>
-                                <li>
-                                    <h3>@lang("careers.de_title")<span class="btn-view"><i class="icon-add"></i></span></h3>
-                                    <div class="careers-text">
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <a class="btn-app" href="#">Apply for this poistion</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h3>@lang("careers.ju_title")<span class="btn-view"><i class="icon-add"></i></span></h3>
-                                    <div class="careers-text">
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <a class="btn-app" href="#">Apply for this poistion</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <h3>@lang("careers.ju1_title")<span class="btn-view"><i class="icon-add"></i></span></h3>
-                                    <div class="careers-text">
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>about the role</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <h4>responsiblities</h4>
-                                        <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                        <a class="btn-app" href="#">Apply for this poistion</a>
-                                    </div>
-                                </li>
-                                <li>
-                                </li>
+                                    @endforeach
+                                @endif
+
                             </ul>
                         </div>
 

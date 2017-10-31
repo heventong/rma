@@ -199,4 +199,19 @@
     'new_page_name' => 'tong7',
     'model' => 'homeindex',
   ),
+  40 => 
+  array (
+    'new_page_name' => 'tong7',
+    'model' => 'homeindex',
+  ),
+  41 => 
+  array (
+    'new_page_name' => 'tong7',
+    'model' => 'index',
+  ),
+  42 => 
+  array (
+    'new_page_name' => 'asdasd',
+    'model' => 'index',
+  ),
 );

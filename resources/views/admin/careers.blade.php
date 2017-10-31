@@ -1,3 +1,7 @@
+<?php
+use Illuminate\Support\Facades\DB;
+?>
+
 @extends('layouts.admin_common')
 
 @section("content")
@@ -11,6 +15,7 @@
         .uploader-list img{width:100px;height:100px}
         .info img{width: 100px;max-height: 100px}
         .info .pic-box{width: 30%;float: left}
+        .editcareers{overflow: hidden}
     </style>
 
     <section class="Hui-article-box">
@@ -68,6 +73,78 @@
                         <input type="text" name="aw_title" class="input-text" value="{{$Data['aw_title']}}">
                     </div>
                 </div>
+            </div>
+
+            <div class="row cl">
+                <span class='title'>招聘项</span>
+                <?php $careers = DB::connection('sqlite')->select("select * from careers "); if($careers){foreach ($careers as $k => $v): ?>
+                <div class="editcareers" >
+                    <label class="form-label col-xs-4 col-sm-2">招聘标题：</label>
+                    <div class="form-group formControls col-xs-6 col-sm-6">
+                        <input style="width: 90%;" class="form-control showeditcareers" name="title" data-type="1" value="<?php echo $v->title;?>" data-id="<?php echo $v->id?>" title="点击编辑查看" readonly>
+                        <?php echo $k == 0?'<span style="cursor: pointer" id="" class="dt addcareers">+</span>':''?>
+                        <span style="cursor: pointer" data-type="1" data-id="<?php echo $v->id?>" class="dt removecarreer">-</span>
+                    </div>
+                </div>
+                <?php endforeach; }else{?>
+
+                <div class="editcareers" >
+                    <label class="form-label col-xs-4 col-sm-2">招聘标题：</label>
+                    <div class="form-group formControls col-xs-6 col-sm-6">
+                        <input style="width: 90%;" class="form-control showeditcareers" name="title" data-type="1" data-id="0" title="点击编辑查看" readonly>
+                        <span style="cursor: pointer" id="" class="dt addcareers">+</span>
+                    </div>
+                </div>
+                <?php }?>
+
+            </div>
+
+            <div class="row cl">
+                <span class='title'>招聘项2</span>
+                <?php $careers = DB::connection('sqlite')->select("select * from careers2 "); if($careers){foreach ($careers as $k => $v): ?>
+                <div class="editcareers" >
+                    <label class="form-label col-xs-4 col-sm-2">招聘标题：</label>
+                    <div class="form-group formControls col-xs-6 col-sm-6">
+                        <input style="width: 90%;" class="form-control showeditcareers" name="title" data-type="2" value="<?php echo $v->title;?>" data-id="<?php echo $v->id?>" title="点击编辑查看" readonly>
+                        <?php echo $k == 0?'<span style="cursor: pointer"  class="dt addcareers">+</span>':''?>
+                        <span style="cursor: pointer" data-type="2" data-id="<?php echo $v->id?>" class="dt removecarreer">-</span>
+                    </div>
+                </div>
+                <?php endforeach; }else{?>
+
+                <div class="editcareers" >
+                    <label class="form-label col-xs-4 col-sm-2">招聘标题：</label>
+                    <div class="form-group formControls col-xs-6 col-sm-6">
+                        <input style="width: 90%;" class="form-control showeditcareers" name="title" data-type="2" data-id="0" title="点击编辑查看" readonly>
+                        <span style="cursor: pointer" class="dt addcareers">+</span>
+                    </div>
+                </div>
+                <?php }?>
+
+            </div>
+
+            <div class="row cl">
+                <span class='title'>招聘项Award</span>
+                <?php $careers = DB::connection('sqlite')->select("select * from careers_award "); if($careers){foreach ($careers as $k => $v): ?>
+                <div class="editcareers" >
+                    <label class="form-label col-xs-4 col-sm-2">招聘标题：</label>
+                    <div class="form-group formControls col-xs-6 col-sm-6">
+                        <input style="width: 90%;" class="form-control showeditcareers" name="title" data-type="3" value="<?php echo $v->title;?>" data-id="<?php echo $v->id?>" title="点击编辑查看" readonly>
+                        <?php echo $k == 0?'<span style="cursor: pointer" id="" class="dt addcareers">+</span>':''?>
+                        <span style="cursor: pointer" data-type="3" data-id="<?php echo $v->id?>" class="dt removecarreer">-</span>
+                    </div>
+                </div>
+                <?php endforeach; }else{?>
+
+                <div class="editcareers" >
+                    <label class="form-label col-xs-4 col-sm-2">招聘标题：</label>
+                    <div class="form-group formControls col-xs-6 col-sm-6">
+                        <input style="width: 90%;" class="form-control showeditcareers" name="title" data-type="3" data-id="0" title="点击编辑查看" readonly>
+                        <span style="cursor: pointer" id="" class="dt addcareers">+</span>
+                    </div>
+                </div>
+                <?php }?>
+
             </div>
 
             <div class="row cl">
@@ -276,5 +353,42 @@
             opacity: '1',
             filter: ' alpha(opacity=100)'
         });
+        $("body").on('click',".showeditcareers",function(){
+            var id = $(this).attr('data-id');
+            var type= $(this).attr('data-type')
+            layer.open({
+                type: 2,
+                title: '添加页面',
+                shadeClose: true,
+//                    shade: 0.8,
+                area: ['1000px', '90%'],
+                content: 'http://rma.com/editcareers?type='+type+'&id='+id //iframe的url
+            })
+        })
+
+        $(".addcareers").on('click',function(){
+            var type = $(this).prev('input[name=title]').attr("data-type")
+            var html = '<div class="editcareers">';
+            html += '<label class="form-label col-xs-4 col-sm-2">招聘标题：</label>';
+            html += '<div class="form-group formControls col-xs-6 col-sm-6">';
+            html += '<input style="width: 90%;" class="form-control showeditcareers" name="title" data-type="'+type+'" data-id="" title="点击编辑查看" readonly> <span style="cursor: pointer" class="dt">-</span>';
+            html += '</div></div>';
+            $(this).parents(".editcareers").parent('.row').append(html)
+        })
+        $(".removecarreer").on('click',function(){
+            var id = $(this).attr('data-id');
+            var type = $(this).attr('data-type')
+            $.post('/removecareer',{'id':id,'type':type},function(res){
+                    res = JSON.parse(res);
+                    if(res.state=='1'){
+                        alert(res.msg);
+                        $("span[data-id="+id+"][data-type="+type+"]").parents('.editcareers').remove()
+//                        top.location.reload();
+                    }else{
+                        alert(res.msg);
+                    }
+            })
+        })
+
     </script>
 @stop

@@ -3,6 +3,8 @@
 @section("content")
 <style type="text/css">
     .text-title h2{width: 95%}
+    .grid-item-culture aside h6 span{font-family: "Renogare";letter-spacing:2px;font-size: 12px}
+    .grid-item-culture aside h5{font-weight: 200}
 </style>
     <!-- loading end -->
     <div class="home wrapper">
@@ -140,7 +142,7 @@
         <a href="{{ url('about') }}" class="media-intro" style="background: url({{ cdn_url("assets/images/home_bottom_bg.jpg",1440,400,'!1440x400r') }}) no-repeat center center;background-size:cover;" href="">
             <aside class="ds-padded-text">
                 <p>@lang('home.award_en')</p>
-                <p class="ch">@lang('home.award_zh')</p>
+                <p class="ch" >@lang('home.award_zh')</p>
                 <i class="icon-right"></i>
             </aside>
         </a>

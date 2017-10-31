@@ -22,6 +22,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
+use Symfony\Component\HttpKernel\EventListener\ValidateRequestListener;
 
 class AdminController extends Controller
 {
@@ -335,6 +337,56 @@ class AdminController extends Controller
                 }
             }
             $this->returnContent('操作成功',1);
+        }
+    }
+    public function editcareers(){
+
+        return $this->render(__FUNCTION__);
+    }
+    public function addsavecareers(Request $request){
+        if($_POST){
+            switch ($_POST['type']){
+                case '1':
+                    $table = 'careers';
+                    break;
+                case '2':
+                    $table = 'careers2';
+                    break;
+                case '3':
+                    $table = 'careers_award';
+                    break;
+            }
+            if(!$_POST['id']){
+                $res = DB::connection('sqlite')->insert('insert into '.$table.'(title,content,create_time,page_type)   
+            values(?,?,?,?)',[$_POST['title'],$_POST['data'],time(),$_POST['page_type']]);
+                if($res){
+                    $this->returnContent('操作成功',1);
+                }
+            }else{
+                $res=DB::connection('sqlite')->update('update '.$table.' set title= ? , content =? , page_type = ? where id= ? ',[$_POST['title'],$_POST['data'],$_POST['page_type'],$_POST['id']]);
+                if($res){
+                    $this->returnContent('操作成功',1);
+                }
+            }
+        }
+    }
+    public function removecareer(){
+        if($_POST['id']){
+            switch ($_POST['type']){
+                case '1':
+                    $table = 'careers';
+                    break;
+                case '2':
+                    $table = 'careers2';
+                    break;
+                case '3':
+                    $table = 'careers_award';
+                    break;
+            }
+            $res = DB::connection('sqlite')->delete('delete from '.$table.' where id = ?',[$_POST['id']]);
+            if($res){
+                $this->returnContent('操作成功',1);
+            }
         }
     }
 }

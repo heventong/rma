@@ -25,6 +25,7 @@
     <input type="hidden" id="pic_type" value="{{$_GET['pic_type']}}">
     <div class="row cl">
         <label class="form-label col-xs-4 col-sm-2">缩略图：</label>
+        <input id="search_name" type="text" placeholder="搜索">
         <div class="formControls col-xs-8 col-sm-9">
             <div class="uploader-thum-container">
                 <div id="fileList" class="uploader-list"></div>
@@ -55,7 +56,7 @@
 <script type="text/javascript">
 
     $(function() {
-        $("img.lazy").lazyload({effect: "fadeIn"});
+        $("img.lazy").lazyload({ threshold : 200 });
     });
     $list = $("#fileList"),
         $btn = $("#btn-star"),
@@ -168,5 +169,16 @@
             $(this).removeClass("gray_border");
             $(this).addClass("red_border");
         }
+    })
+    $("#search_name").on('keyup',function(){
+        var search_name = $(this).val()
+        $("#upload_pic").find('li').each(function(){
+            var checked = $(this).attr('class')
+            if(checked != 'red_border') $(this).hide();
+            var name = $(this).children('img').attr('title');
+            if(name.indexOf(search_name)>=0){
+                $(this).show();
+            }
+        })
     })
 </script>

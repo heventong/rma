@@ -9,21 +9,21 @@
     array (
       'pic' => 'http://images-1253411363.picgz.myqcloud.com/dforce_01.jpg?imageMogr2/thumbnail/!750x1200r/interlace/1|imageMogr2/gravity/center/crop/750x1200/quality/70',
       'title' => 'Game <br />is like <br />a macro story<br /><span>遊戲如一場微縮的故事</span>',
-      'sub_title' => '1111',
+      'sub_title' => NULL,
       'url' => 'index',
     ),
     1 => 
     array (
       'pic' => 'http://images-1253411363.picgz.myqcloud.com/dforce_04.jpg?imageMogr2/thumbnail/!750x1200r/interlace/1|imageMogr2/gravity/center/crop/750x1200/quality/70',
       'title' => 'Game <br />is like <br />a macro story<br /><span>遊戲如一場微縮的故事</span>',
-      'sub_title' => '11',
+      'sub_title' => NULL,
       'url' => 'home',
     ),
     2 => 
     array (
       'pic' => 'http://images-1253411363.picgz.myqcloud.com/dforce_10.jpg?imageMogr2/thumbnail/!750x1200r/interlace/1|imageMogr2/gravity/center/crop/750x1200/quality/70',
       'title' => 'Game <br />is like <br />a macro story<br /><span>遊戲如一場微縮的故事</span>',
-      'sub_title' => 'asasd',
+      'sub_title' => NULL,
       'url' => 'serve',
     ),
   ),
@@ -40,7 +40,7 @@
   'workdetail3' => 'assets/images/dforce_003.jpg',
   'workdetail4' => 'assets/images/dforce_004.jpg',
   'workdetail5' => 'assets/images/dforce_005.jpg',
-  'honor1' => 'http://images-1253411363.picgz.myqcloud.com/dforce.mp4?',
+  'honor1' => 'assets/images/dforce_006.mp4',
   'honor2' => 'assets/images/dforce_007.jpg',
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
   'page_title_zh' => '人類的認知, 無不來源於感官, 我們通過設計, 溝通感官, 再造認知, 激發思想, 啟迪人文',

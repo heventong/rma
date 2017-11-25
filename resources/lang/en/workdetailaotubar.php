@@ -7,27 +7,27 @@
   array (
     0 => 
     array (
-      'pic' => cdn_url("assets/images/songrestruant003.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/songrestruant003.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => 'Walking<br />in the sky<br /><span>云端漫步</span>',
       'sub_title' => '1111',
       'url' => 'index',
     ),
     1 => 
     array (
-      'pic' => cdn_url("assets/images/songrestruant004.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/songrestruant004.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => 'Walking<br />in the sky<br /><span>云端漫步</span>',
       'sub_title' => '11',
       'url' => 'home',
     ),
     2 => 
     array (
-      'pic' => cdn_url("assets/images/songrestruant001.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/songrestruant001.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => 'Walking<br />in the sky<br /><span>云端漫步</span>',
       'sub_title' => 'asasd',
       'url' => 'serve',
     ),
   ),
-  'page_title' => '<h5>Aotu/Panyu Guangzhou China/廣州番禺/300 m/2017</h5>
+  'page_title' => '<h5>Aotu/PanYu GuangZhou China/300<em>m</em>²/2017</h5>
                 <h5>Servies/Interior Design/FF&E Design/Category/Club/bar/hospility</h5>
                 <h6>服務範疇/室內設計/軟裝設計/標簽/俱樂部/酒吧/會所</h6>',
   'workdetail1' => 'assets/images/auto_001.jpg',
@@ -37,10 +37,10 @@
   'workdetail5' => 'assets/images/auto_005.jpg',
   'honor1' => 'assets/images/auto_006.jpg',
   'honor2' => 'assets/images/auto_007.jpg',
-  'page_name' => 'workdetailxclub',
+  'page_name' => 'workdetailaotubar',
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
   'page_title_zh' => '人類的認知, 無不來源於感官, 我們通過設計, 溝通感官, 再造認知, 激發思想, 啟迪人文',
-  '_token' => 'ergMfvYYc13duuq5myTi6Bt5wqWXhXz8mX4towdO',
+  '_token' => 'urXeMup86BMEAMRtdznlGxjQtBBVbmYfo1kCYKNH',
   'founder_title' => 'Founder <br/> <em>創辦人</em>',
   'founder_title2' => 'Creative Director<br/><em>创意总监</em>',
   'founder_name' => 'Ray Wong<br /><em>黃永才</em>',

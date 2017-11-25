@@ -27,22 +27,21 @@
       'url' => 'serve',
     ),
   ),
-    'page_name' => 'workdetaildforce',
-    'service' => 'Services/interior design/ff&e design/Category/Club/bar/hospility',
-    'service_zh' => '服務範疇/室內設計/軟件設計/標簽/俱樂部/酒吧/會所',
-    'page_content' => '<h6 class="pb5">Under the morden skins</h6>
+  'page_name' => 'workdetailsongrestaurant',
+  'service' => 'Services/interior design/ff&e design/Category/Club/bar/hospility',
+  'service_zh' => '服務範疇/室內設計/軟件設計/標簽/俱樂部/酒吧/會所',
+  'page_content' => '<h6 class="pb5">Under the morden skins</h6>
                 <h5 class="ch">現代皮囊之下</h5>
                 <p class="pb5">Under the modern material of China</p>
                 <p class="ch pb10">現代物料下的中國想象</p>',
-    'page_title' => 'Song\'s restaurant /Zhujiang Newtown Guangzhou China/2000 m<sup>2</sup>/2017',
+  'page_title' => 'Song\'s restaurant /ZhuJiang NewTown GuangZhou China/2000 m²/2017',
   'workdetail1' => 'assets/images/songre_001.jpg',
   'workdetail2' => 'assets/images/songre_002.jpg',
   'workdetail3' => 'assets/images/songre_004.jpg',
   'workdetail4' => 'assets/images/songre_005.jpg',
-  'page_name' => 'workdetailsongrestaurant',
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
   'page_title_zh' => '人類的認知, 無不來源於感官, 我們通過設計, 溝通感官, 再造認知, 激發思想, 啟迪人文',
-  '_token' => 'ergMfvYYc13duuq5myTi6Bt5wqWXhXz8mX4towdO',
+  '_token' => 'M5580JEPeFiovqijEokce2lbzuTMJdesd15xNkQz',
   'founder_title' => 'Founder <br/> <em>創辦人</em>',
   'founder_title2' => 'Creative Director<br/><em>创意总监</em>',
   'founder_name' => 'Ray Wong<br /><em>黃永才</em>',
@@ -54,4 +53,5 @@
   'bd_name' => '行政主管 <i class=\'splitor_white\'></i><em>湯煥芬</em>',
   'bd_desc' => '“Communication is an art”',
   'bd_desc_ch' => '溝通是一門藝術',
+  'page_type' => 'mobile',
 );

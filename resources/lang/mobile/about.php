@@ -4,8 +4,8 @@
     0 => 
     array (
       'pic' => 'http://images-1253411363.picgz.myqcloud.com/about.jpg?imageMogr2/thumbnail/!750x1200r/interlace/1|imageMogr2/gravity/center/crop/750x1200/quality/70',
-      'title' => 'belief',
-      'sub_title' => 'who am i',
+      'title' => 'MAKE.<br/>WORK.<br/>PLAY.<br/><span>創造 工作 玩樂</span>',
+      'sub_title' => 'who we are',
       'url' => 'home',
     ),
   ),
@@ -36,7 +36,7 @@
     'pic' => 'assets/images/person-04.jpg',
     'title' => 'Senior Design<i class="splitor_white"></i>Jet Wong',
     'name' => '高級設計師 <i class="splitor_white"></i><em>王文杰</em>',
-    'desc' => '“Hazy and the release is the charm between real and illusory”',
+    'desc' => 'Hazy and the release is the charm between real and illusory',
     'desc_ch' => '朦朧與釋放是真實與虛幻之間的魅力',
   ),
   'sd' => 
@@ -44,7 +44,7 @@
     'pic' => 'assets/images/person-02.jpg',
     'title' => 'Senior Design<i class="splitor_white"></i>Eunice Wong',
     'name' => '高級設計師<i class="splitor_white"></i> <em>王艷玲</em>',
-    'desc' => '“Courage is a pioneer in change”',
+    'desc' => 'Courage is a pioneer in change',
     'desc_ch' => '勇氣是變革的先驅',
   ),
   'pm' => 
@@ -52,7 +52,7 @@
     'pic' => 'assets/images/person-05.jpg',
     'title' => 'Project Manager<i class="splitor_white"></i>James Wu',
     'name' => '項目經理<i class="splitor_white"></i> <em>吳嘉慶</em>',
-    'desc' => '“Multidimensional perspective is also observed more stereoscopic”',
+    'desc' => 'Multidimensional perspective is also observed more stereoscopic',
     'desc_ch' => '多維的視角另觀察更立體',
   ),
   'td' => 
@@ -60,7 +60,7 @@
     'pic' => 'assets/images/person-06.jpg',
     'title' => 'Technical Director<i class="splitor_white"></i>Bell Wei',
     'name' => '技術總監<i class="splitor_white"></i> <em>韋士康</em>',
-    'desc' => '“Long-term love is the attitude of the staff”',
+    'desc' => 'Long-term love is the attitude of the staff',
     'desc_ch' => '長久地熱愛專注便是識人的態度',
   ),
   'dd2' => 
@@ -68,7 +68,7 @@
     'pic' => 'assets/images/person-08.jpg',
     'title' => 'Deepen design<i class="splitor_white"></i>Jam C',
     'name' => '深化設計<i class="splitor_white"></i> <em>陳楚佳</em>',
-    'desc' => '“The details are right”',
+    'desc' => 'The details are right',
     'desc_ch' => '細節即是光芒',
   ),
   'ff' => 
@@ -76,7 +76,7 @@
     'pic' => 'assets/images/person-07.jpg',
     'title' => 'FF&E design<i class="splitor_white"></i>Bibi Wu',
     'name' => '軟裝設計師 <i class="splitor_white"></i><em>吳雪碧</em>',
-    'desc' => '“Add emotion with beauty as space”',
+    'desc' => 'Add emotion with beauty as space',
     'desc_ch' => '用審美為空間添加情感',
   ),
   'a' => 
@@ -84,13 +84,13 @@
     'pic' => 'assets/images/person-09.jpg',
     'title' => 'Administrative<i class="splitor_white"></i>Fern Tang',
     'name' => '行政主管 <i class="splitor_white"></i><em>湯煥芬</em>',
-    'desc' => '“Communication is an art”',
+    'desc' => 'Communication is an art',
     'desc_ch' => '溝通是一門藝術',
   ),
   'award_title' => 'Award',
   'workLife' => 'work life',
   'teamHonour' => 'Awards <i class="splitor_white"></i> <span class="ch">團隊榮譽</span>',
-  '_token' => 'SccfGLJ65ay1mZGgvYQyvzYu4xDgK90KmH7NZUNr',
+  '_token' => 'vvXMfGNEAm3mJQAoWy6wIUYPePHki6V0XDgUlHT2',
   'page_name' => 'about',
   'page_type' => 'mobile',
 );

@@ -34,7 +34,7 @@
                     <h5 class="ch">遊戲如一場微縮的故事</h5>
                     <p class="pb5">Every game is like a macro story with the beginning, chasing, climax and ending</p>
                     <p class="ch pb10">游戏如一场微缩的故事。开局，角逐，高潮，结局。</p>',
-  'page_title' => 'Aotu/Panyu Guangzhou China/300 m/2017',
+  'page_title' => 'Aotu/PanYu GuangZhou China/300 m²/2017',
   'workdetail1' => 'assets/images/auto_001.jpg',
   'workdetail2' => 'assets/images/auto_002.jpg',
   'workdetail3' => 'assets/images/auto_003.jpg',
@@ -44,7 +44,7 @@
   'honor2' => 'assets/images/auto_007.jpg',
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
   'page_title_zh' => '人類的認知, 無不來源於感官, 我們通過設計, 溝通感官, 再造認知, 激發思想, 啟迪人文',
-  '_token' => 'BN4eIQxAciCfjEPWgZbXHeIQJOxKPE1sea6hW9FS',
+  '_token' => 'E71hCitMHu4Tm3WDTSjY4PWxmhBi7wTtcOX8sBTW',
   'founder_title' => 'Founder <br/> <em>創辦人</em>',
   'founder_title2' => 'Creative Director<br/><em>创意总监</em>',
   'founder_name' => 'Ray Wong<br /><em>黃永才</em>',

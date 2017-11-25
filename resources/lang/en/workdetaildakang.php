@@ -7,27 +7,27 @@
   array (
     0 => 
     array (
-      'pic' => cdn_url("assets/images/dkang001.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/dkang001.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => 'Wrinkle style <br/>in the <br/>chinese painting<br /><span>山石樹木的筆墨意趣</span>',
       'sub_title' => 'D-Kang',
       'url' => 'index',
     ),
     1 => 
     array (
-      'pic' => cdn_url("assets/images/dkang004.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/dkang004.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => 'Wrinkle style <br/>in the <br/>chinese painting<br /><span>山石樹木的筆墨意趣</span>',
       'sub_title' => 'D-Kang',
       'url' => 'home',
     ),
     2 => 
     array (
-      'pic' => cdn_url("assets/images/dkang002.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/dkang002.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => 'Wrinkle style <br/>in the <br/>chinese painting<br /><span>山石樹木的筆墨意趣</span>',
       'sub_title' => 'D-Kang',
       'url' => 'serve',
     ),
   ),
-  'page_title' => '<h5>D-Kang/Baiyun GuangZhou/廣州白雲/3000 m/2012</h5>
+  'page_title' => '<h5>D-Kang/GuangZhou BaiYun/3000<em>m</em>²/2012</h5>
                 <h5>Servies/Interior Design/FF&E Design/Category/Club/bar/hospility</h5>
                 <h6>服務範疇/室內設計/軟裝設計/標簽/俱樂部/酒吧/會所</h6>
                 <h6 class="pb5">Wrinkle style in the chinese painting</h6>
@@ -39,10 +39,10 @@
   'workdetail3' => 'assets/images/dkang_003.jpg',
   'workdetail4' => 'assets/images/dkang_004.jpg',
   'workdetail5' => 'assets/images/dkang_005.jpg',
-  'page_name' => 'workdetailxclub',
+  'page_name' => 'workdetaildakang',
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
   'page_title_zh' => '人類的認知, 無不來源於感官, 我們通過設計, 溝通感官, 再造認知, 激發思想, 啟迪人文',
-  '_token' => 'ergMfvYYc13duuq5myTi6Bt5wqWXhXz8mX4towdO',
+  '_token' => 'Jzd2rbyic19Wznz0qtCR9sKMmknCAfpnjsFr32M6',
   'founder_title' => 'Founder <br/> <em>創辦人</em>',
   'founder_title2' => 'Creative Director<br/><em>创意总监</em>',
   'founder_name' => 'Ray Wong<br /><em>黃永才</em>',

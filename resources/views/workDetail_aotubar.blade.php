@@ -88,14 +88,11 @@
         <!-- scroll-down-arrow end-->
         <div class="work-detail-title clearfix" >
             <div class="title-left">
-
-                <h5>Aotu/Panyu Guangzhou China/廣州番禺/300 m/2017</h5>
+<?php echo $Data['page_title'];?>
+                <!-- <h5>Aotu/Panyu Guangzhou China/廣州番禺/300 m/2017</h5>
                 <h5>Servies/Interior Design/FF&E Design/Category/Club/bar/hospility</h5>
-                <h6>服務範疇/室內設計/軟裝設計/標簽/俱樂部/酒吧/會所</h6>
-                {{--<h6 class="pb5">Under the morden skins</h6>--}}
-                {{--<h5 class="ch">現代皮囊之下</h5>--}}
-                {{--<p class="pb5">Under the modern material of China</p>--}}
-                {{--<p class="ch pb10">現代物料下的中國想象</p>--}}
+                <h6>服務範疇/室內設計/軟裝設計/標簽/俱樂部/酒吧/會所</h6> -->
+                
             </div>
 
         </div>

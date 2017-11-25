@@ -31,7 +31,7 @@ class Controller extends BaseController
             array('title'=>'首页','title_en'=>'home','lang_file'=>'home.php','file'=>'home.blade.php','url'=>'home'),
             array('title'=>'我们','title_en'=>'about','lang_file'=>'about.php','file'=>'about.blade.php','url'=>'about'),
             array('title'=>'信念','title_en'=>'belief','lang_file'=>'belief.php','file'=>'belief.blade.php','url'=>'belief'),
-            array('title'=>'作品列表','title_en'=>'workList','lang_file'=>'worklist.php','file'=>'workList.blade.php','url'=>'workList'),
+            array('title'=>'作品列表','title_en'=>'workList','lang_file'=>'workList.php','file'=>'workList.blade.php','url'=>'workList'),
             array('title'=>'专业','title_en'=>'serve','lang_file'=>'serve.php','file'=>'serve.blade.php','url'=>'serve'),
             array('title'=>'同路','title_en'=>'careers','lang_file'=>'careers.php','file'=>'careers.blade.php','url'=>'careers'),
             array('title'=>'联系','title_en'=>'contact','lang_file'=>'contact.php','file'=>'contact.blade.php','url'=>'contact'),

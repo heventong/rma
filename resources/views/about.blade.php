@@ -5,9 +5,11 @@
         .about .team-item .tgrid-item-text{padding:50px;}
         .about .text-title p{color:white!important;}
         .team-title h4, .team-item .tgrid .tgrid-item .tgrid-item-text h4{line-height: 40px;font-size:1.1em}
-        .about .team-item .tgrid-item-text p.ch{font-size: 1.1em;}
+        .about .team-item .tgrid-item-text p.ch{font-size: 1.1em}
         .about .team-item .tgrid-item-text p{font-size: 1.1em;}
-        .name em{font-family: "NSimsun";font-site:'12px'}
+        .name em{font-family: Aharoni, Renogare, NSimsun;font-size:'12px'}
+        .about .text-title p.ch , em ,.name ,.ch , .about .tgrid-item-text h4 em{font-size: 15px!important}
+
     </style>
     <!-- loading end -->
     <div class="wrapper about">
@@ -24,7 +26,7 @@
                 <?php foreach($Data['banner'] as $key => $value){ ?>
                 <div class="swiper-slide">
                     <?php if(!empty($Data['video'])){echo '<video id="video" repeat src="{{ source_url("assets/images/preview.mp4") }}" width="100%" height="100%"><source src="{{ source_url("assets/images/preview.mp4") }}" type="video/mp4"></video>';}?>
-                    <a href="{{ $value['url'] }}" style="background: url({{ $value['pic'] }}) 100% no-repeat; background-size: cover;">
+                    <a href="{{ $value['url'] }}" style="background: url({{ $value['pic'] }}) 50% no-repeat; background-size: cover;">
                         <div class="ban-text">
                             <span> <?php echo $value['sub_title']?></span>
                             <h3><?php echo $value['title']?></h3>
@@ -42,8 +44,8 @@
         <!-- wrap-bg -->
         <div class="wrap-bg serve-bg">
             <div class="text-title bg-black">
-                <p>RMA Republic Design by Ray Wong Huang Yongcai was founded in 2013, based on the architecture, space, interior, product design industry, determined to use the philosophy of thinking system, the international design language, gathered alone thinking, together to create the ultimate design work and Experience, we are the traditional design industry silence of the jailbreak, is the new sensual ocean pirate ship</p>
-                <p class="ch">RMA共和都市設計由Ray Wong黄永才于2013年創立，立足建築、空間室內、產品設計行業，立志用哲學的思考體系、國際化的設計語言，聚集孤獨者的思考，共同創造極致的設計作品和體驗，我們是傳統設計行業沉默的越獄者，是新感官海洋的海盜船</p>
+                <p>{{$Data['page_title_en']}}</p>
+                <p class="ch">{{$Data['page_title_zh']}}</p>
             </div>
             <div class="team-item clearfix">
                 <div class="firstGrid clearfix">
@@ -65,7 +67,7 @@
                         <p class="p0 pt20" style="font-family: 'Renogare';letter-spacing: 2px;font-size: 17px;">
                             "@lang("about.founder.motto")"</p>
                         <br/>
-                        <p class="p0 pt20">@lang("about.founder.motto_ch")</p>
+                        <p class="p0 pt20 ch">@lang("about.founder.motto_ch")</p>
                         <br/>
                         <p class="p0 pt20">@lang("about.founder.desc")</p>
                         <br/>

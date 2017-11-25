@@ -7,14 +7,14 @@
   array (
     0 => 
     array (
-      'pic' => cdn_url("assets/images/cave_006-r.jpg",700,900,'!700x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/cave_006-r.jpg?imageMogr2/thumbnail/!700x900r/interlace/1|imageMogr2/gravity/center/crop/700x900/quality/70',
       'title' => 'Peep and hug<br /><span>窺視與擁抱</span>',
       'sub_title' => 'Cave',
       'url' => 'index',
     ),
     1 => 
     array (
-      'pic' => cdn_url("assets/images/cave_016-r.jpg",700,900,'!700x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/cave_016-r.jpg?imageMogr2/thumbnail/!700x900r/interlace/1|imageMogr2/gravity/center/crop/700x900/quality/70',
       'title' => 'Peep and hug<br /><span>窺視與擁抱</span>',
       'sub_title' => 'Cave',
       'url' => 'home',
@@ -27,23 +27,22 @@
       'url' => 'serve',
     ),
   ),
-    'page_name'=> 'Cave /Panyu Guangzhou China/300 m<sup>2</sup>/2017',
-    'service'=>'Services/interior design/ff&e design/Category/Club/bar/hospility',
-    'service_zh'=>'服務範疇/室內設計/軟件設計/標簽/俱樂部/酒吧/會所',
-    'page_content'=>'<h6 class="pb5">Peep and hug</h6>
+  'page_name' => 'workdetailcave',
+  'service' => 'Services/interior design/ff&e design/Category/Club/bar/hospility',
+  'service_zh' => '服務範疇/室內設計/軟件設計/標簽/俱樂部/酒吧/會所',
+  'page_content' => '<h6 class="pb5">Peep and hug</h6>
                 <h5 class="ch">窺視與擁抱</h5>
                 <p class="pb5">The exchange between the hole and the warmth of the hole</p>
                 <p class="ch pb10">洞口之间的交流及洞里火光的温暖</p>',
-  'page_title' => 'Cave /Panyu Guangzhou China/300 m<sup>2</sup>/2017',
+  'page_title' => 'Cave /PanYu GuangZhou China/300 m<sup>2</sup>/2017',
   'workdetail1' => 'assets/images/cave_001.jpg',
   'workdetail2' => 'assets/images/cave_002.jpg',
   'workdetail3' => 'assets/images/cave_003.jpg',
   'workdetail4' => 'assets/images/cave_004.jpg',
   'workdetail5' => 'assets/images/cave_005.jpg',
-  'page_name' => 'workdetailcave',
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
   'page_title_zh' => '人類的認知, 無不來源於感官, 我們通過設計, 溝通感官, 再造認知, 激發思想, 啟迪人文',
-  '_token' => 'ergMfvYYc13duuq5myTi6Bt5wqWXhXz8mX4towdO',
+  '_token' => 'DXhCYZYY8QOKetg4EMTXS2wifMUz0FjpbQgwxK9b',
   'founder_title' => 'Founder <br/> <em>創辦人</em>',
   'founder_title2' => 'Creative Director<br/><em>创意总监</em>',
   'founder_name' => 'Ray Wong<br /><em>黃永才</em>',
@@ -55,4 +54,5 @@
   'bd_name' => '行政主管 <i class=\'splitor_white\'></i><em>湯煥芬</em>',
   'bd_desc' => '“Communication is an art”',
   'bd_desc_ch' => '溝通是一門藝術',
+  'page_type' => 'mobile',
 );

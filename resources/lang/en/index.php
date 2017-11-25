@@ -1,7 +1,7 @@
 <?php return array (
   'page_title' => 
   array (
-    'sub_title' => 'RMMMMMMMM1',
+    'sub_title' => '思想的感官革命',
   ),
   'home' => 
   array (

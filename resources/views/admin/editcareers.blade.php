@@ -2,7 +2,18 @@
 <?php
 use Illuminate\Support\Facades\DB;
 
-if (array_key_exists('id',$_GET) && $_GET['id'])$info = DB::connection('sqlite')->select('select * from careers where id = ? ',[$_GET['id']])[0];
+        switch($_GET['type']){
+            case '1':
+                $table = 'careers';
+                break;
+            case '2':
+                $table = 'careers2';
+                break;
+            case '3':
+                $table = 'careers_award';
+                break;
+        }
+if (array_key_exists('id',$_GET) && $_GET['id'])$info = DB::connection('sqlite')->select('select * from '.$table.' where id = ? ',[$_GET['id']])[0];
 ?>
 
 <!-- 加载编辑器的容器 -->

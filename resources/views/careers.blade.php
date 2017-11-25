@@ -18,6 +18,16 @@
         .careers-lists li .careers-text p{
             padding-bottom:2%;
         }
+        .careers .text-title p.ch{
+        	font-family: FZShuSong-Z01T;
+        }
+        .careers .text-title p{
+        	font-family: Metrosant; 
+        }
+        .award-title h2 .ch{
+            font-family: FZShuSong-Z01T;
+        }
+        .bg-white p{line-height: 1.5em}
     </style>
     <!-- loading end -->
     <div class="wrapper careers">
@@ -104,7 +114,7 @@
 
                 <div style="overflow: hidden;width:60%;float:left;">
                     <div class="award-title">
-                        <h2 style="font-family: 'Renogare','宋体';font-size: 1.4em;letter-spacing: 4px">@lang("careers.aw_title")</h2>
+                        <h2 style="font-family: 'Renogare';font-size: 1.4em;letter-spacing: 4px">@lang("careers.aw_title")</h2>
                     </div>
                     <div class="careers-list bg-common pt100 careers-award-list" >
 

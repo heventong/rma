@@ -12,6 +12,7 @@
         .title-right li{text-align:left}
         .detail-com {
             overflow: hidden;}
+    
     </style>
 
     <!-- loading end -->

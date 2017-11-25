@@ -30,7 +30,7 @@
       'url' => 'serve',
     ),
   ),
-  'page_content_name' => 'X-Club /Nanning Guangxi/2000M/2017',
+  'page_content_name' => 'X-Club /NanNing GuangXi/2000m²/2017',
   'service' => 'Services/interior design/ff&e design/Category/Club/bar/hospility',
   'service_zh' => '服務範疇/室內設計/軟件設計/標簽/俱樂部/酒吧/會所',
   'page_content' => '<h5 class="pb5">Walking in the sky</h5>
@@ -51,7 +51,7 @@
   'page_name' => 'workdetailxclub',
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
   'page_title_zh' => '人類的認知, 無不來源於感官, 我們通過設計, 溝通感官, 再造認知, 激發思想, 啟迪人文',
-  '_token' => 'uRm0pyaoi02duk80mNjvNOWc98ecMF5pkmNfuu3J',
+  '_token' => 'JC3s2OEAOXXXTgB0vGhd5XKPmqvZVQP3ERt8g4U7',
   'founder_title' => 'Founder <br/> <em>創辦人</em>',
   'founder_title2' => 'Creative Director<br/><em>创意总监</em>',
   'founder_name' => 'Ray Wong<br /><em>黃永才</em>',

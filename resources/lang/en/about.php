@@ -3,20 +3,25 @@
   array (
     0 => 
     array (
-      'pic' => 'http://images-1253411363.picgz.myqcloud.com/about.jpg?imageMogr2/thumbnail/!750x1200r/interlace/1|imageMogr2/gravity/center/crop/750x1200/quality/70',
-      'title' => 'belieff',
-      'sub_title' => 'who am ii1',
+      'pic' => 'assets/images/about.jpg',
+      'title' => NULL,
+      'sub_title' => NULL,
       'url' => 'home',
     ),
   ),
   'title' => 'MAKE.<br/>WORK.<br/>PLAY.<br/><span>創造 工作 玩樂</span>',
-  'page_title_zh' => 'RMA共和都市設計由Ray Wong黄永才于2013年創立，立足建築、空間室內、產品設計行業，立志用哲學的思考體系、國際化的設計語言，聚集孤獨者的思考，共同創造極致的設計作品和體驗，我們是傳統設計行業沉默的越獄者，是新感官海洋的海盜船',
+  'founder_title' => 'Founder <br/> <em>創辦人</em>',
+  'founder_title2' => 'Creative Director<br/><em>创意总监</em>',
+  'founder_name' => 'Ray Wong<br /><em>黃永才</em>',
+  'founder_motto' => 'Perfect is bound',
+  'founder_motto_ch' => '完美即是束缚',
+  'page_title_zh' => 'RMA共和都市设计由 Ray Wong 黄永才于 2013 年创立，立足建筑、空间、室内、产品设计行业，立志用哲学的思考体系、国际化的设计语言，聚集孤独者的思考，共同创造极致的设计作品和体验，我们是传统设计行业沉默的越狱者，是新感官海洋的海盗船，打破旧观念和一沉不变的套路，带来全新的设计震撼。',
   'page_title_en' => 'RMA Republic Design by Ray Wong Huang Yongcai was founded in 2013, based on the architecture, space, interior, product design industry, determined to use the philosophy of thinking system, the international design language, gathered alone thinking, together to create the ultimate design work and Experience, we are the traditional design industry silence of the jailbreak, is the new sensual ocean pirate ship',
   'founder' => 
   array (
     'pic' => 'assets/images/person.jpg',
-    'title' => 'Founder <i class="splitor_white"></i>create director',
-    'title2' => '創辦人<i class="splitor_white"></i>創意總監',
+    'title' => 'Founder <br/> <em>創辦人</em>',
+    'title2' => 'Creative Director<br/><em>创意总监</em>',
     'name' => 'Ray Wong<br /><em>黃永才</em>',
     'motto' => 'Perfect is bound',
     'motto_ch' => '完美即是束缚',
@@ -26,8 +31,8 @@
   'bd' => 
   array (
     'pic' => 'assets/images/person-03.jpg',
-    'title' => 'Senior Design<i class="splitor_white"></i>Jet Wong',
-    'name' => '設計總監 <i class="splitor_white"></i>黄永杰',
+    'title' => 'Design Director<i class="splitor_white"></i>Jet Wong',
+    'name' => '設計總監 <i class="splitor_white"></i><em>黄永杰</em>',
     'desc' => 'The boundaries of physics and thought are gradually ablated in the designPerfect is bound',
     'desc_ch' => '物理及思想的邊界在設計中逐漸地消融',
   ),
@@ -43,7 +48,7 @@
   array (
     'pic' => 'assets/images/person-02.jpg',
     'title' => 'Senior Design<i class="splitor_white"></i>Eunice Wong',
-    'name' => '高級設計師<i class="splitor_white"></i> <em>王艷玲</em>',
+    'name' => '高級設計師<i class="splitor_white"></i><em>王艷玲</em>',
     'desc' => '“Courage is a pioneer in change”',
     'desc_ch' => '勇氣是變革的先驅',
   ),
@@ -51,7 +56,7 @@
   array (
     'pic' => 'assets/images/person-05.jpg',
     'title' => 'Project Manager<i class="splitor_white"></i>James Wu',
-    'name' => '項目經理<i class="splitor_white"></i> <em>吳嘉慶</em>',
+    'name' => '項目經理<i class="splitor_white"></i><em>吳嘉慶</em>',
     'desc' => '“Multidimensional perspective is also observed more stereoscopic”',
     'desc_ch' => '多維的視角另觀察更立體',
   ),
@@ -59,7 +64,7 @@
   array (
     'pic' => 'assets/images/person-06.jpg',
     'title' => 'Technical Director<i class="splitor_white"></i>Bell Wei',
-    'name' => '技術總監<i class="splitor_white"></i> <em>韋士康</em>',
+    'name' => '技術總監<i class="splitor_white"></i><em>韋士康</em>',
     'desc' => '“Long-term love is the attitude of the staff”',
     'desc_ch' => '長久地熱愛專注便是識人的態度',
   ),
@@ -67,7 +72,7 @@
   array (
     'pic' => 'assets/images/person-08.jpg',
     'title' => 'Deepen design<i class="splitor_white"></i>Jam C',
-    'name' => '深化設計<i class="splitor_white"></i> <em>陳楚佳</em>',
+    'name' => '深化設計<i class="splitor_white"></i><em>陳楚佳</em>',
     'desc' => '“The details are right”',
     'desc_ch' => '細節即是光芒',
   ),
@@ -90,7 +95,7 @@
   'award_title' => 'Award',
   'workLife' => 'work life',
   'teamHonour' => 'Awards <i class="splitor_white"></i> <span class="ch">團隊榮譽</span>',
-  '_token' => '9U0iM6v5uEMZuHualSsU9v2dUDi5t12ItsHVoNnP',
+  '_token' => 'nErvEnX0Cxx2rq8n33yJiVTBHiigqHpmTRpq4D12',
   'page_name' => 'about',
   'model' => 'index',
 );

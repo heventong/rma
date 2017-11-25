@@ -2,7 +2,15 @@
 
 @section("content")
 
-
+<style type="text/css">
+    .grid-item-culture aside h6 span{font-family: "Renogare";letter-spacing:2px;font-size: 12px}
+    .grid-item-culture aside h5{font-weight: 200}
+    aside .ch {font-size: 12px;}
+    .grid-item-culture aside h6.ch span{font-family: FZShuSong-Z01T}
+    .grid-item-culture aside h6 span{letter-spacing: 4px}
+    .grid-item-culture aside h5.ch{font-size: 15px;font-family: FZShuSong-Z01T}
+    .caree h6[class='ch'] span,.blive h6[class='ch'] span{font-size: 15px!important}
+</style>
 
     <!-- loading end -->
     <div class="wrapper worklist">
@@ -106,10 +114,10 @@
                         </aside>
                     </a>
                     <a href="{{ url('careers') }}" class="grid-item-culture" style="padding-top: 1em">
-                        <aside>
+                        <aside class="caree">
                             <h6><span>CAREE</span></h6>
-                            <h5>WITH A REVOLUTIONARY,<br> PIONEERING, EXPERIMENTAL SPIRIT<br> UNINHIBITED LOVE OF THE BRAVE</h5>
-                            <h6 class="ch"><span>我們正在召集：</span></h6>
+                            <h5 >WITH A REVOLUTIONARY,<br> PIONEERING, EXPERIMENTAL SPIRIT<br> UNINHIBITED LOVE OF THE BRAVE</h5>
+                            <h6 class="ch" style="font-size: 12px"><span>我們正在召集：</span></h6>
                             <h5 class="ch">具有革命性、先鋒性、實驗性精神<br>不羈愛思考的勇者</h5>
                         </aside>
                     </a>

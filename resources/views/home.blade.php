@@ -5,6 +5,11 @@
     .text-title h2{width: 95%}
     .grid-item-culture aside h6 span{font-family: "Renogare";letter-spacing:2px;font-size: 12px}
     .grid-item-culture aside h5{font-weight: 200}
+    aside .ch {font-size: 12px;}
+    .grid-item-culture aside h6.ch span{font-family: FZShuSong-Z01T}
+    .grid-item-culture aside h6 span{letter-spacing: 4px}
+    .grid-item-culture aside h5.ch{font-size: 15px;font-family: FZShuSong-Z01T}
+    .caree h6[class='ch'] span,.blive h6[class='ch'] span{font-size: 15px!important}
 </style>
     <!-- loading end -->
     <div class="home wrapper">
@@ -102,7 +107,7 @@
                         </aside>
                     </a>
                     <a href="{{ url('careers') }}" class="grid-item-culture" >
-                        <aside>
+                        <aside class="caree">
                             @lang('home.caree_title')
                         </aside>
                     </a>
@@ -118,7 +123,7 @@
                         </aside>
                     </a>
                     <a href="{{ url('belief') }}" class="grid-item-culture" >
-                        <aside>
+                        <aside class='blive'>
                             @lang("home.blive_title")
                         </aside>
                     </a>
@@ -165,21 +170,21 @@
             autoplayDisableOnInteraction: false,
             onSlideChangeStart: function(swiper){
                 if( swiper.activeIndex == 0 ){
-                    video.show();
-                    video.get(0).play();
+//                    video.show();
+//                    video.get(0).play();
                     swiper.stopAutoplay();
                 }else{
                     swiper.startAutoplay();
                 }
             }
         });
-        video.show();
-        video.get(0).play();
+//        video.show();
+//        video.get(0).play();
         swiper.stopAutoplay();
-        video.get(0).onended = function(){
-            swiper.slideNext();
-            swiper.startAutoplay();
-        }
+//        video.get(0).onended = function(){
+//            swiper.slideNext();
+//            swiper.startAutoplay();
+//        }
     </script>
     <script type="text/javascript">
         //   document.onreadystatechange = loading; 

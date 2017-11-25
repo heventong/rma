@@ -362,7 +362,7 @@ use Illuminate\Support\Facades\DB;
                 shadeClose: true,
 //                    shade: 0.8,
                 area: ['1000px', '90%'],
-                content: 'http://rma.com/editcareers?type='+type+'&id='+id //iframe的url
+                content: '/editcareers?type='+type+'&id='+id //iframe的url
             })
         })
 

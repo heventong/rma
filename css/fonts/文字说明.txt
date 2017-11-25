@@ -1,0 +1,9 @@
+1.cordia: 文字细
+
+2.Minnie: 文字"v"尖，很粗
+
+3.Renogare: 文字"v"尖，粗,正
+
+4.swissk: 文字"v"平，很粗
+
+5.Arial：默认

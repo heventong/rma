@@ -4,21 +4,21 @@
     0 => 
     array (
       'pic' => 'assets/images/uploads/1500827554serve.jpg',
-      'title' => '131231asd',
+      'title' => '<div>under the </div><div style=\'width: 140px\'>morden</div><div style=\'width: 90px\'>skins</div><span>現代皮囊之下</span>',
       'sub_title' => 'SONG`S RESTAURANT',
       'url' => 'belief',
     ),
     1 => 
     array (
       'pic' => 'assets/images/uploads/1500827554index_bg.jpg',
-      'title' => '321312',
+      'title' => '<div>under the </div><div style=\'width: 140px\'>morden</div><div style=\'width: 90px\'>skins</div><span>現代皮囊之下</span>',
       'sub_title' => 'SONG`S RESTAURANT',
       'url' => 'workDetail?project=songclub',
     ),
     2 => 
     array (
       'pic' => 'assets/images/uploads/1500827554indexGrid-04.jpg',
-      'title' => '131231asd',
+      'title' => '<div>under the </div><div style=\'width: 140px\'>morden</div><div style=\'width: 90px\'>skins</div><span>現代皮囊之下</span>',
       'sub_title' => 'SONG`S RESTAURANT',
       'url' => 'home',
     ),

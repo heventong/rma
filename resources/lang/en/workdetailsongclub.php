@@ -7,27 +7,27 @@
   array (
     0 => 
     array (
-      'pic' => cdn_url("assets/images/songclub001.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/songclub001.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => 'Game <br />of the interval<br /><span>間隔的遊戲</span>',
       'sub_title' => 'Song`s club',
       'url' => 'index',
     ),
     1 => 
     array (
-      'pic' => cdn_url("assets/images/songclub005.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/songclub005.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => 'Game <br />of the interval<br /><span>間隔的遊戲</span>',
       'sub_title' => 'Song`s club',
       'url' => 'home',
     ),
     2 => 
     array (
-      'pic' => cdn_url("assets/images/songclub003.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/songclub003.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => 'Game <br />of the interval<br /><span>間隔的遊戲</span>',
       'sub_title' => 'Song`s club',
       'url' => 'serve',
     ),
   ),
-  'page_title' => '<h5>Song\'s Club/Zhujiang Newtown Guangzhou China/廣州珠江新城/3000 m/2014</h5>
+  'page_title' => '<h5>Song\'s Club/ZhuJiang NewTown GuangZhou China/3000<em>m</em>²/2014</h5>
                 <h5>Servies/Interior Design/FF&E Design/Category/Club/bar/hospility</h5>
                 <h6>服務範疇/室內設計/軟裝設計/標簽/俱樂部/酒吧/會所</h6>
                 <h6 class="pb5">Game of the interval</h6>
@@ -41,10 +41,10 @@
   'workdetail5' => 'assets/images/song_club_005.jpg',
   'honor1' => 'asset("assets/images/song_club_006.mp4")',
   'honor2' => 'http://images-1253411363.picgz.myqcloud.com/dpic-03.jpg?imageMogr2/thumbnail/!950x500r/interlace/1|imageMogr2/gravity/center/crop/350x400/quality/70',
-  'page_name' => 'workdetailxclub',
+  'page_name' => 'workdetailsongclub',
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
   'page_title_zh' => '人類的認知, 無不來源於感官, 我們通過設計, 溝通感官, 再造認知, 激發思想, 啟迪人文',
-  '_token' => 'ergMfvYYc13duuq5myTi6Bt5wqWXhXz8mX4towdO',
+  '_token' => 'OBAKUYgivHaeCBlSWVo9ugq5Z9TAWaf7NiUxYhdy',
   'founder_title' => 'Founder <br/> <em>創辦人</em>',
   'founder_title2' => 'Creative Director<br/><em>创意总监</em>',
   'founder_name' => 'Ray Wong<br /><em>黃永才</em>',

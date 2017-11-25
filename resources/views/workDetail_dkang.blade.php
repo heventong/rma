@@ -34,6 +34,7 @@
         .img_height img{
             /*height: 30em;*/
         }
+        .title-left h5 em{font-size: 17px}
     </style>
 
     <!-- loading end -->

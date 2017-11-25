@@ -7,34 +7,33 @@
   array (
     0 => 
     array (
-      'pic' => cdn_url("assets/images/songclub001.jpg",700,1080,'!700x1080r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/songclub001.jpg?imageMogr2/thumbnail/!700x1080r/interlace/1|imageMogr2/gravity/center/crop/700x1080/quality/70',
       'title' => 'Game <br />of the interval<br /><span>間隔的遊戲</span>',
       'sub_title' => 'Song`s club',
       'url' => 'index',
     ),
     1 => 
     array (
-      'pic' => cdn_url("assets/images/songclub005.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/songclub005.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => 'Game <br />of the interval<br /><span>間隔的遊戲</span>',
       'sub_title' => 'Song`s club',
       'url' => 'home',
     ),
     2 => 
     array (
-      'pic' => cdn_url("assets/images/songclub003.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/songclub003.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => 'Game <br />of the interval<br /><span>間隔的遊戲</span>',
       'sub_title' => 'Song`s club',
       'url' => 'serve',
     ),
   ),
-    'page_title'=> 'Song`s Club /Zhujiang Newtown Guangzhou China/3000 m<sup>2</sup>/2014',
-    'service'=>'Services/interior design/ff&e design/Category/Club/bar/hospility',
-    'service_zh'=>'服務範疇/室內設計/軟件設計/標簽/俱樂部/酒吧/會所',
-    'page_content'=>'<h6 class="pb5">Game of the interval</h6>
+  'page_title' => 'Song`s Club /ZhuJiang NewTown GuangZhou China/3000 m<sup>2</sup>/2014',
+  'service' => 'Services/interior design/ff&e design/Category/Club/bar/hospility',
+  'service_zh' => '服務範疇/室內設計/軟件設計/標簽/俱樂部/酒吧/會所',
+  'page_content' => '<h6 class="pb5">Game of the interval</h6>
                 <h5 class="ch">間隔的遊戲</h5>
                 <p class="pb5">Between the visible and invisible stack space and events</p>
                 <p class="ch pb10">可見與不可見之間的空間與事件的疊加</p>',
-
   'workdetail1' => 'assets/images/song_club_001.jpg',
   'workdetail2' => 'assets/images/song_club_002.jpg',
   'workdetail3' => 'assets/images/song_club_003.jpg',
@@ -56,4 +55,6 @@
   'bd_name' => '行政主管 <i class=\'splitor_white\'></i><em>湯煥芬</em>',
   'bd_desc' => '“Communication is an art”',
   'bd_desc_ch' => '溝通是一門藝術',
+  'page_name' => 'workdetailsongclub',
+  'page_type' => 'mobile',
 );

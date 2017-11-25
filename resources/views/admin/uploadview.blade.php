@@ -56,7 +56,9 @@
 <script type="text/javascript">
 
     $(function() {
-        $("img.lazy").lazyload({ threshold : 200 });
+        $("img.lazy").lazyload({ effect : "fadeIn" ,event: 'mouseover'});
+//        load->loadimages();
+
     });
     $list = $("#fileList"),
         $btn = $("#btn-star"),

@@ -34,7 +34,7 @@
                 <h5 class="ch">山石樹木的筆墨意趣</h5>
                 <p class="pb5">Tang dynasty blue and green landscape painting spatial structures</p>
                 <p class="ch pb10">唐代青山綠水畫意象的空間解構</p>',
-  'page_title' => 'D-Kang/Baiyun GuangZhou/3000 m/2012',
+  'page_title' => 'D-Kang/GuangZhou BaiYun/3000m²/2012',
   'workdetail1' => 'assets/images/dkang_001.jpg',
   'workdetail2' => 'assets/images/dkang_002.jpg',
   'workdetail3' => 'assets/images/dkang_003.jpg',
@@ -43,7 +43,7 @@
   'honor2' => 'http://images-1253411363.picgz.myqcloud.com/dpic-03.jpg?imageMogr2/thumbnail/!950x500r/interlace/1|imageMogr2/gravity/center/crop/350x400/quality/70',
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
   'page_title_zh' => '人類的認知, 無不來源於感官, 我們通過設計, 溝通感官, 再造認知, 激發思想, 啟迪人文',
-  '_token' => 'zsICqm8sAxOiOhUh0mamfbC7VuxQvQj2gOvOWYgp',
+  '_token' => 'rbELkWFPASYCtdtYXYvaUYc668v6H2eqhOycqDRz',
   'founder_title' => 'Founder <br/> <em>創辦人</em>',
   'founder_title2' => 'Creative Director<br/><em>创意总监</em>',
   'founder_name' => 'Ray Wong<br /><em>黃永才</em>',

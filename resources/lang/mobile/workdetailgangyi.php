@@ -7,34 +7,34 @@
   array (
     0 => 
     array (
-      'pic' => cdn_url("assets/images/songrestruant003.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/songrestruant003.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => '3',
       'sub_title' => 'Gangyi',
       'url' => 'index',
     ),
     1 => 
     array (
-      'pic' => cdn_url("assets/images/songrestruant004.jpg",1440,900,'!1440x900r'),
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/songrestruant004.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => '2',
       'sub_title' => 'Gangyi',
       'url' => 'home',
     ),
     2 => 
     array (
-      'pic' => cdn_url("assets/images/songrestruant001.jpg",1440,900,'!1440x900r') ,
+      'pic' => 'http://images-1253411363.picgz.myqcloud.com/songrestruant001.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
       'title' => '1',
       'sub_title' => 'Gangyi',
       'url' => 'serve',
     ),
   ),
-    'page_name' => 'workdetaildforce',
-    'service' => 'Services/interior design/ff&e design/Category/Club/bar/hospility',
-    'service_zh' => '服務範疇/室內設計/軟件設計/標簽/俱樂部/酒吧/會所',
-    'page_content' => '<h6 class="pb5">Game is like a macro story</h6>
+  'page_name' => 'workdetailgangyi',
+  'service' => 'Services/interior design/ff&e design/Category/Club/bar/hospility',
+  'service_zh' => '服務範疇/室內設計/軟件設計/標簽/俱樂部/酒吧/會所',
+  'page_content' => '<h6 class="pb5">Game is like a macro story</h6>
                     <h5 class="ch">遊戲如一場微縮的故事</h5>
                     <p class="pb5">Every game is like a macro story with the beginning, chasing, climax and ending</p>
                     <p class="ch pb10">游戏如一场微缩的故事。开局，角逐，高潮，结局。</p>',
-    'page_title' => 'Gangyi/Zhongshan Shunde China/3000 m/2011',
+  'page_title' => 'Gangyi/ZhongShan ShunDe China/3000 m²/2011',
   'workdetail1' => 'assets/images/gangyi_001.jpg',
   'workdetail2' => 'assets/images/gangyi_002.jpg',
   'workdetail3' => 'assets/images/gangyi_003.jpg',
@@ -42,10 +42,9 @@
   'workdetail5' => 'assets/images/gangyi_005.jpg',
   'honor1' => 'assets/images/gangyi_006.jpg',
   'honor2' => 'assets/images/gangyi_007.jpg',
-  'page_name' => 'workdetailxclub',
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
   'page_title_zh' => '人類的認知, 無不來源於感官, 我們通過設計, 溝通感官, 再造認知, 激發思想, 啟迪人文',
-  '_token' => 'ergMfvYYc13duuq5myTi6Bt5wqWXhXz8mX4towdO',
+  '_token' => 'yyPsThyj0xcLdYPrFLPU95rvj8Ie2l8Eq2jZv25m',
   'founder_title' => 'Founder <br/> <em>創辦人</em>',
   'founder_title2' => 'Creative Director<br/><em>创意总监</em>',
   'founder_name' => 'Ray Wong<br /><em>黃永才</em>',
@@ -57,4 +56,5 @@
   'bd_name' => '行政主管 <i class=\'splitor_white\'></i><em>湯煥芬</em>',
   'bd_desc' => '“Communication is an art”',
   'bd_desc_ch' => '溝通是一門藝術',
+  'page_type' => 'mobile',
 );

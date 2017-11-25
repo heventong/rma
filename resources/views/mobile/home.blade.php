@@ -4,6 +4,7 @@
     <style>
         .text-title .ch{margin-top: 10px}
         .ban-text div{background-color: black;margin-bottom:10px;}
+        .grid-item-culture aside h5{line-height: 19px}
     </style>
     <!-- loading end -->
     <div class="wrapper home">

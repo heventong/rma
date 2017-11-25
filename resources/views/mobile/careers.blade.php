@@ -50,98 +50,38 @@
                     <div class="careers-lists">
                         <h2>@lang("careers.in_title")</h2>
                         <ul>
+                            <?php $careers = DB::connection('sqlite')->select("select * from careers");
+                            ?>
+                            @if ($careers)
+                                @foreach($careers as $key => $value)
                             <li>
-                                <h3>@lang("careers.se_title") <span class="btn-view">View <i class="icon-add"></i></span></h3>
+                                <h3><?php echo $value->title?> <span class="btn-view">View <i class="icon-add"></i></span></h3>
                                 <div class="careers-text">
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
+                                    <?php echo $value->content?>
                                     <a class="btn-app" href="#">Apply for this poistion</a>
                                 </div>
                             </li>
-                            <li>
-                                <h3>@lang("careers.de_title")<span class="btn-view">View <i class="icon-add"></i></span></h3>
-                                <div class="careers-text">
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <a class="btn-app" href="#">Apply for this poistion</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h3>@lang("careers.ju_title")<span class="btn-view">View <i class="icon-add"></i></span></h3>
-                                <div class="careers-text">
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <a class="btn-app" href="#">Apply for this poistion</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h3>@lang("careers.ju1_title")<span class="btn-view">View <i class="icon-add"></i></span></h3>
-                                <div class="careers-text">
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <a class="btn-app" href="#">Apply for this poistion</a>
-                                </div>
-                            </li>
-                            <li>
-                            </li>
+                                @endforeach
+                            @endif
                         </ul>
                     </div>
                     <div class="careers-lists">
                         <h2>@lang("careers.ff_title")</h2>
                         <ul>
+                            <?php $careers2 = DB::connection('sqlite')->select("select * from careers2");
+                            ?>
+                            @if ($careers2)
+                                @foreach($careers2 as $key => $value)
                             <li>
-                                <h3>@lang("careers.de1_title")<span class="btn-view">View <i class="icon-add"></i></span></h3>
+                                <h3><?php echo $value->title?><span class="btn-view">View <i class="icon-add"></i></span></h3>
                                 <div class="careers-text">
-                                    <h4>about the s</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
+                                    <?php echo $value->content?>
                                     <a class="btn-app" href="#">Apply for this poistion</a>
                                 </div>
                             </li>
-                            <li style="background:white;color:black">
-                                <h3 style="background:white;color:black">Junior designer / 實習生助理<span class="btn-view">View <i class="icon-add"></i></span></h3>
-                                <div class="careers-text" style="background:white;color:black"> 
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <a class="btn-app" href="#">Apply for this poistion</a>
-                                </div>
-                            </li>
-                           
+                                    @endforeach
+                                @endif
+
                         </ul>
                     </div>
                     
@@ -155,64 +95,17 @@
                     <div class="careers-lists" style="padding:40px 0px 30px 0px">
                         <h2>@lang("careers.in_title")</h2>
                         <ul>
+                            <?php $careers_award = DB::connection('sqlite')->select("select * from careers_award");
+                            ?>
+                            @foreach($careers_award as $key => $value)
                             <li>
-                                <h3>@lang("careers.se_title") <span class="btn-view">View <i class="icon-add"></i></span></h3>
+                                <h3><?php echo $value->title?><span class="btn-view">View <i class="icon-add"></i></span></h3>
                                 <div class="careers-text">
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
+                                    <?php echo $value->content?>
                                     <a class="btn-app" href="#">Apply for this poistion</a>
                                 </div>
                             </li>
-                            <li>
-                                <h3>@lang("careers.de_title")<span class="btn-view">View <i class="icon-add"></i></span></h3>
-                                <div class="careers-text">
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <a class="btn-app" href="#">Apply for this poistion</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h3>@lang("careers.ju_title")<span class="btn-view">View <i class="icon-add"></i></span></h3>
-                                <div class="careers-text">
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <a class="btn-app" href="#">Apply for this poistion</a>
-                                </div>
-                            </li>
-                            <li>
-                                <h3>@lang("careers.ju1_title")<span class="btn-view">View <i class="icon-add"></i></span></h3>
-                                <div class="careers-text">
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>about the role</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <h4>responsiblities</h4>
-                                    <p>some images just stick with you,and Aster Hung's illustrations will do this--the fusion of beauty and horror is both compelling and ...Some images just</p>
-                                    <a class="btn-app" href="#">Apply for this poistion</a>
-                                </div>
-                            </li>
-                            <li>
-                            </li>
+                                @endforeach
                         </ul>
                     </div>
                     
@@ -224,31 +117,31 @@
                     <ul>
                         <li>
                             <a href="#">
-                                <div class="careers-person-img"><img src="{{ cdn_url('assets/images/person-05.jpg',750,700,'!750x700r') }}" alt="careers person"></div>
+                                <div class="careers-person-img"><img src="{{ $Data['person1']['pic'] }}" alt="careers person"></div>
                                 <div class="careers-person-text">
                                     <!--<h4>enuice wong<br>founder/creative diretor</h4>-->
-                                    <p>RMA Republic of the city from the uncompromising, adhere to the dream of people together, we built a purely business environment, advocating self-confidence, sunshine, inclusive, good values, we believe that the Republic is a beautiful and ideal design If you Lofty, determined to work hard to create value, then join it! Here, with more insights, with more like-minded counterparts!</p>
-                                    <p class="ch">RMA 共和都市由从不妥协、坚持梦想的人聚合而成,我们构建了纯粹的企业环境，崇尚自信、阳光、包容、善良的价值观,我们相信共和是个美好并可实现的设计理想</p>
+                                    <p><?php echo $Data['person1']['title']?></p>
+                                    <p class="ch"><?php echo $Data['person1']['sub_title']?></p>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <div class="careers-person-img"><img src="{{ cdn_url('assets/images/person-06.jpg',750,700,'!750x700r') }}" alt="careers person"></div>
+                                <div class="careers-person-img"><img src="{{ $Data['person2']['pic'] }}" alt="careers person"></div>
                                 <div class="careers-person-text">
                                     <!--<h4>james wu<br>founder/creative diretor</h4>-->
-                                    <p>RMA Republic of the city from the uncompromising, adhere to the dream of people together, we built a purely business environment, advocating self-confidence, sunshine, inclusive, good values, we believe that the Republic is a beautiful and ideal design If you Lofty, determined to work hard to create value, then join it! Here, with more insights, with more like-minded counterparts!</p>
-                                    <p class="ch">RMA 共和都市由从不妥协、坚持梦想的人聚合而成,我们构建了纯粹的企业环境，崇尚自信、阳光、包容、善良的价值观,我们相信共和是个美好并可实现的设计理想</p>
+                                    <p><?php echo $Data['person2']['title']?></p>
+                                    <p class="ch"><?php echo $Data['person2']['sub_title']?></p>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                <div class="careers-person-img"><img src="{{ cdn_url('assets/images/person-07.jpg',750,700,'!750x700r') }}" alt="careers person"></div>
+                                <div class="careers-person-img"><img src="{{ $Data['person3']['pic'] }}" alt="careers person"></div>
                                 <div class="careers-person-text">
                                     <!--<h4>bell wei<br>founder/creative diretor</h4>-->
-                                    <p>RMA Republic of the city from the uncompromising, adhere to the dream of people together, we built a purely business environment, advocating self-confidence, sunshine, inclusive, good values, we believe that the Republic is a beautiful and ideal design If you Lofty, determined to work hard to create value, then join it! Here, with more insights, with more like-minded counterparts!</p>
-                                    <p class="ch">RMA 共和都市由从不妥协、坚持梦想的人聚合而成,我们构建了纯粹的企业环境，崇尚自信、阳光、包容、善良的价值观,我们相信共和是个美好并可实现的设计理想</p>
+                                    <p><?php echo $Data['person3']['title']?></p>
+                                    <p class="ch"><?php echo $Data['person3']['sub_title']?></p>
                                 </div>
                             </a>
                         </li>

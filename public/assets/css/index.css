@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 
 /*
 Powered By www.toprand.com
@@ -3732,3 +3732,4 @@ a.media-intro aside:hover {
     padding-left: 30px;
     padding-right: 30px;
 }
+.title-left h5 em{font-size: 17px}

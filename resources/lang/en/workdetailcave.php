@@ -27,7 +27,7 @@
       'url' => 'serve',
     ),
   ),
-  'page_title' => '<h5>Cave/Panyu Guangzhou China/廣州番禺/300 m/2017</h5>
+  'page_title' => '<h5>Cave/PanYu GuangZhou China/300<em>m</em>²/2017</h5>
                 <h5>Servies/Interior Design/FF&E Design/Category/Club/bar/hospility</h5>
                 <h6>服務範疇/室內設計/軟裝設計/標簽/俱樂部/酒吧/會所</h6>
                 <h6 class="pb5">Peep and hug</h6>
@@ -42,7 +42,7 @@
   'page_name' => 'workdetailcave',
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
   'page_title_zh' => '人類的認知, 無不來源於感官, 我們通過設計, 溝通感官, 再造認知, 激發思想, 啟迪人文',
-  '_token' => 'ergMfvYYc13duuq5myTi6Bt5wqWXhXz8mX4towdO',
+  '_token' => 'C0J7XpktioRTVKJs9wXM16cEvTL6y2dJpMIrQqDi',
   'founder_title' => 'Founder <br/> <em>創辦人</em>',
   'founder_title2' => 'Creative Director<br/><em>创意总监</em>',
   'founder_name' => 'Ray Wong<br /><em>黃永才</em>',

@@ -45,7 +45,7 @@
             <!-- tetx-title end -->
             <!-- careers -->
             <div class="careers clearfix">
-			<div style="min-height:800px">
+			<div class="bg-common" style="min-height:10rem">
                 <div class="careers-list bg-common" >
                     <div class="careers-lists">
                         <h2>@lang("careers.in_title")</h2>

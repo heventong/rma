@@ -79,15 +79,16 @@
                     <li class="bBox">
                         <a href="{{ url('news') }}">
                             <div class="belief-text">
-                                <h3><span>@lang("belief.it2_title")</span>@lang("belief.it2_desc")</h3>
-                                <h4><span>@lang("belief.it2_title_ch")</span>@lang("belief.it2_desc_ch")</h3>
+                                <h3><span>@lang("belief.it1.title")</span></h3>
+                                 <h4><span>@lang("belief.it1.title_ch")</span></h4>
                             </div>
                             <img src="{{ cdn_url('assets/images/belief-03.jpg',375,350,'!375x350r') }}" alt="belief">
                         </a>
                         <a href="{{ url('news') }}" class="fl bg9f">
                             <div class="belief-text">
-                                <h3><span>@lang("belief.it3_title")</span>@lang("belief.it3_desc")</h3>
-                                <h4><span>@lang("belief.it3_title_ch")</span>@lang("belief.it3_desc_ch")</h3>
+                                <h3><span>@lang("belief.it1.title")</span></h3>
+                                 <h4><span>@lang("belief.it1.title_ch")</span></h4>
+                            
                             </div>
                             <img src="{{ cdn_url('assets/images/belief-04.jpg',375,350,'!375x350r') }}" alt="belief">
                         </a>
@@ -95,8 +96,8 @@
                     <li class="bItems">
                         <a href="{{ url('news') }}">
                             <div class="belief-text">
-                                <h3><span>@lang("belief.it4_title")</span>@lang("belief.it4_desc")</h3>
-                                <h4><span>@lang("belief.it4_title_ch")</span>@lang("belief.it4_desc_ch")</h3>
+                                <h3><span>@lang("belief.it1.title")</span></h3>
+                                 <h4><span>@lang("belief.it1.title_ch")</span></h4>
                             </div>
                             <img src="{{ cdn_url('assets/images/belief-05.jpg',750,700,'!750x700r') }}" alt="belief">
                         </a>
@@ -104,15 +105,15 @@
                     <li class="bBox">
                         <a href="{{ url('news') }}">
                             <div class="belief-text">
-                                <h3><span>@lang("belief.it5_title")</span>@lang("belief.it5_desc")</h3>
-                                <h4><span>@lang("belief.it5_title_ch")</span>@lang("belief.it5_desc_ch")</h3>
+                                <h3><span>@lang("belief.it1.title")</span></h3>
+                                 <h4><span>@lang("belief.it1.title_ch")</span></h4>
                             </div>
                             <img src="{{ cdn_url('assets/images/belief-06.jpg',375,350,'!375x350r') }}" alt="belief">
                         </a>
                         <a href="{{ url('news') }}" class="fl bg9f">
                             <div class="belief-text">
-                                <h3><span>@lang("belief.it6_title")</span>@lang("belief.it6_desc")</h3>
-                                <h4><span>@lang("belief.it6_title_ch")</span>@lang("belief.it6_desc_ch")</h3>
+                                <h3><span>@lang("belief.it1.title")</span></h3>
+                                 <h4><span>@lang("belief.it1.title_ch")</span></h4>
                             </div>
                             <img src="{{ cdn_url('assets/images/belief-07.jpg',375,350,'!375x350r') }}" alt="belief">
                         </a>
@@ -130,15 +131,15 @@
                     <li class="bBox">
                         <a href="{{ url('news') }}">
                             <div class="belief-text">
-                                <h3><span>@lang("belief.it8_title")</span>@lang("belief.it8_desc")</h3>
-                                <h4><span>@lang("belief.it8_title_ch")</span>@lang("belief.it8_desc_ch")</h3>
+                                <h3><span>@lang("belief.it1.title")</span></h3>
+                                 <h4><span>@lang("belief.it1.title_ch")</span></h4>
                             </div>
                             <img src="{{ cdn_url('assets/images/belief-09.jpg',375,350,'!375x350r') }}" alt="belief">
                         </a>
                         <a href="{{ url('news') }}" class="fl bg9f">
                             <div class="belief-text">
-                                <h3><span>@lang("belief.it9_title")</span>@lang("belief.it9_desc")</h3>
-                                <h4><span>@lang("belief.it9_title_ch")</span>@lang("belief.it9_desc_ch")</h3>
+                                <h3><span>@lang("belief.it1.title")</span></h3>
+                                 <h4><span>@lang("belief.it1.title_ch")</span></h4>
                             </div>
                             <img src="{{ cdn_url('assets/images/belief-10.jpg',375,350,'!375x350r') }}" alt="belief">
                         </a>
@@ -146,8 +147,8 @@
                     <li class="bItems">
                         <a href="{{ url('news') }}">
                             <div class="belief-text">
-                                <h3><span>@lang("belief.it10_title")</span>@lang("belief.it10_desc")</h3>
-                                <h4><span>@lang("belief.it10_title_ch")</span>@lang("belief.it10_desc_ch")</h3>
+                                <h3><span>@lang("belief.it1.title")</span></h3>
+                                 <h4><span>@lang("belief.it1.title_ch")</span></h4>
                             </div>
                             <img src="{{ cdn_url('assets/images/belief-12.jpg',750,700,'!750x700r') }}" alt="belief">
                         </a>
@@ -155,15 +156,15 @@
                     <li class="bBox">
                         <a href="{{ url('news') }}" class="fl">
                             <div class="belief-text">
-                                <h3><span>@lang("belief.it11_title")</span>@lang("belief.it11_desc")</h3>
-                                <h4><span>@lang("belief.it11_title_ch")</span>@lang("belief.it11_desc_ch")</h3>
+                                <h3><span>@lang("belief.it1.title")</span></h3>
+                                 <h4><span>@lang("belief.it1.title_ch")</span></h4>
                             </div>
                             <img src="{{ cdn_url('assets/images/belief-11.jpg',375,350,'!375x350r') }}" alt="belief">
                         </a>
                         <a href="{{ url('news') }}" class="fl bg9f">
                             <div class="belief-text">
-                                <h3><span>@lang("belief.it12_title")</span>@lang("belief.it12_desc")</h3>
-                                <h4><span>@lang("belief.it12_title_ch")</span>@lang("belief.it12_desc_ch")</h3>
+                                <h3><span>@lang("belief.it1.title")</span></h3>
+                                 <h4><span>@lang("belief.it1.title_ch")</span></h4>
                             </div>
                             <img src="{{ cdn_url('assets/images/belief-13.jpg',375,350,'!375x350r') }}" alt="belief">
                         </a>

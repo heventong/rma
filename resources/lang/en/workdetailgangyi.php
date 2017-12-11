@@ -8,21 +8,21 @@
     0 => 
     array (
       'pic' => 'http://images-1253411363.picgz.myqcloud.com/songrestruant003.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
-      'title' => '3',
+      'title' => NULL,
       'sub_title' => 'Gangyi',
       'url' => 'index',
     ),
     1 => 
     array (
       'pic' => 'http://images-1253411363.picgz.myqcloud.com/songrestruant004.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
-      'title' => '2',
+      'title' => NULL,
       'sub_title' => 'Gangyi',
       'url' => 'home',
     ),
     2 => 
     array (
       'pic' => 'http://images-1253411363.picgz.myqcloud.com/songrestruant001.jpg?imageMogr2/thumbnail/!1440x900r/interlace/1|imageMogr2/gravity/center/crop/1440x900/quality/70',
-      'title' => '1',
+      'title' => NULL,
       'sub_title' => 'Gangyi',
       'url' => 'serve',
     ),
@@ -44,7 +44,7 @@
   'page_name' => 'workdetailgangyi',
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
   'page_title_zh' => '人類的認知, 無不來源於感官, 我們通過設計, 溝通感官, 再造認知, 激發思想, 啟迪人文',
-  '_token' => 'qBJELpC3AQNBtzP5ccMK0JldSlB3UdCzWK4W2Yot',
+  '_token' => 'eqH8EDU05TcWuN5PvoVB46qGJiUjOJLOS3BEMaaM',
   'founder_title' => 'Founder <br/> <em>創辦人</em>',
   'founder_title2' => 'Creative Director<br/><em>创意总监</em>',
   'founder_name' => 'Ray Wong<br /><em>黃永才</em>',

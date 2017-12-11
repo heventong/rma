@@ -2407,10 +2407,10 @@ a.media-intro aside:hover {
     font-size: 13px;
 }
 .border-tb{
-    border-top:1px dashed #cccccc;
+    /*border-top:1px dashed #cccccc;
     border-bottom:1px dashed #cccccc;
-    background-color: white;
-    color:black;
+    background-color: white;*/
+    color:white!important;
 }
 .careers-award-list{
     padding-bottom: 60px;

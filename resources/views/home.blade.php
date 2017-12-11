@@ -10,6 +10,7 @@
     .grid-item-culture aside h6 span{letter-spacing: 4px}
     .grid-item-culture aside h5.ch{font-size: 15px;font-family: FZShuSong-Z01T}
     .caree h6[class='ch'] span,.blive h6[class='ch'] span{font-size: 15px!important}
+    
 </style>
     <!-- loading end -->
     <div class="home wrapper">

@@ -148,33 +148,23 @@
 
             <div class="related-links swiper-container" id="related-links">
                 <div id="relate" class="swiper-wrapper detail-randoms  project-list">
-                    <div class="random" onclick="location.href='{{ url('news') }}'">
-                        <div class="randoms-img sOn"><img src="{{ cdn_url('assets/images/DK-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
-                        <div class="randoms-img"><img src="{{ cdn_url('assets/images/song_club_slider.jpg',350,480,'!350x480r') }}" alt=""></div>
-                        <div class="randoms-img"><img src="{{ cdn_url('assets/images/song_club_slider2.jpg',350,480,'!350x480r') }}" alt=""></div>
+                    <div class="random" onclick="location.href = $(this).find('.sOn').attr('url')">
+                        <div class="randoms-img sOn" url="{{ url('workDetail?project=songclub') }}"><img src="{{ cdn_url('assets/images/DK-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
+                        <div class="randoms-img" url="{{ url('workDetail?project=songclub') }}"><img src="{{ cdn_url('assets/images/song_club_slider.jpg',350,480,'!350x480r') }}" alt=""></div>
+                        <div class="randoms-img" url="{{ url('workDetail?project=songclub') }}"><img src="{{ cdn_url('assets/images/song_club_slider2.jpg',350,480,'!350x480r') }}" alt=""></div>
                     </div>
-                    <div class="random" onclick="location.href='{{ url('news') }}'">
-                        <div class="randoms-img sOn"><img style="height: 100%" src="{{ asset('assets/images/cave_list.png') }}" alt=""></div>
-                        {{--<div class="randoms-img sOn"><img src="{{ cdn_url('assets/images/SongRestraunt2-slider.jpg',350,480,'!350x480r') }}" alt=""></div>--}}
-                        <div class="randoms-img"><img src="{{ cdn_url('assets/images/SongRestraunt-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
-                        <div class="randoms-img"><img src="{{ cdn_url('assets/images/xclub2-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
-                        <div class="randoms-img"><img src="{{ cdn_url('assets/images/Xclub-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
+                    <div class="random" onclick="location.href = $(this).find('.sOn').attr('url')">
+                        <div class="randoms-img sOn" url="{{ url('workDetail?project=cave') }}"><img style="height: 100%" src="{{ asset('assets/images/cave_list.png') }}" alt=""></div>
+                        
+                        <div class="randoms-img" url="{{ url('workDetail?project=songrestaurant') }}"><img src="{{ cdn_url('assets/images/SongRestraunt-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
+                        <div class="randoms-img" url="{{ url('workDetail?project=xclub') }}"><img src="{{ cdn_url('assets/images/xclub2-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
+                        <div class="randoms-img" url="{{ url('workDetail?project=xclub') }}"><img src="{{ cdn_url('assets/images/Xclub-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
                     </div>
-                    <div class="random on" onclick="location.href='{{ url('news') }}'">
-                        <div class="randoms-img sOn"><img src="{{ cdn_url('assets/images/aotu-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
-                        <div class="randoms-img "><img src="{{ cdn_url('assets/images/Dfroce2-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
-                        <div class="randoms-img"><img src="{{ cdn_url('assets/images/Dfroce-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
+                    <div class="random on" onclick="location.href = $(this).find('.sOn').attr('url')">
+                        <div class="randoms-img sOn" url="{{ url('workDetail?project=aotubar') }}"><img src="{{ cdn_url('assets/images/aotu-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
+                        <div class="randoms-img" url="{{ url('workDetail?project=dfroce') }}"><img src="{{ cdn_url('assets/images/Dfroce2-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
+                        <div class="randoms-img" url="{{ url('workDetail?project=dfroce') }}"><img src="{{ cdn_url('assets/images/Dfroce-slider.jpg',350,480,'!350x480r') }}" alt=""></div>
                     </div>
-
-                <!--<div class="swiper-slide">
-                        <a href="{{ url('workDetail') }}" style="background: url({{ cdn_url('assets/images/dpic_01.jpg',750,800,'!750x800r') }}) 50% no-repeat; background-size: cover;"></a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="{{ url('workDetail') }}" style="background: url({{ cdn_url('assets/images/dpic_02.jpg',750,800,'!750x800r') }}) 50% no-repeat; background-size: cover;"></a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="{{ url('workDetail') }}" style="background: url({{ cdn_url('assets/images/dpic_03.jpg',750,800,'!750x800r') }}) 50% no-repeat; background-size: cover;"></a>
-                    </div>-->
                 </div>
             </div>
         </div>

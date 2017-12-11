@@ -68,7 +68,7 @@
             <!-- tetx-title end -->
             <!-- careers -->
             <div class="careers clearfix">
-                <div style="overflow: hidden;width:60%;float:left;">
+                <div class="bg-common" style="overflow: hidden;width:60%;float:left;min-height: 2000px;border-right:1px solid #ccc;">
                     <div class="careers-list bg-common pt100" >
                         <div class="careers-lists">
                             <h2>@lang("careers.in_title")</h2>
@@ -113,7 +113,7 @@
                 <a class="ban-small" href="#"><img src="{{ cdn_url('assets/images/careersr.jpg') }}" alt="careers banner small"></a>
 
                 <div style="overflow: hidden;width:60%;float:left;">
-                    <div class="award-title">
+                    <div class="award-title" style="border-right:1px solid #ccc">
                         <h2 style="font-family: 'Renogare';font-size: 1.4em;letter-spacing: 4px">@lang("careers.aw_title")</h2>
                     </div>
                     <div class="careers-list bg-common pt100 careers-award-list" >

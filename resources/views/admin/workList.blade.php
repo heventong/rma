@@ -306,10 +306,10 @@
                         <p>title:</p>
                         <p><input name="songrestaurant2[title]" type="text" value="{{$Data['songrestaurant2']['title']}}"/></p>
                         <span>链接</span>
-                        <input type="hidden" name="songrestaurant2[pic]" value="{{$Data['xclub2']['pic']}}">
+                        <input type="hidden" name="songrestaurant2[pic]" value="{{$Data['songrestaurant2']['pic']}}">
                         <select name="songrestaurant2[url]">
                             <?php foreach($url as $v){ ?>
-                            <option {{$Data['xclub2']['url']==$v['url']?'selected':''}} value="{{$v['url']}}">{{$v['title']}}</option>
+                            <option {{$Data['songrestaurant2']['url']==$v['url']?'selected':''}} value="{{$v['url']}}">{{$v['title']}}</option>
                             <?php } ?>
                         </select>
                     </div>

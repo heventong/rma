@@ -3,24 +3,17 @@
   array (
     0 => 
     array (
-      'pic' => 'assets/images/uploads/1500827554serve.jpg',
-      'title' => '<div>under the </div><div style=\'width: 140px\'>morden</div><div style=\'width: 90px\'>skins</div><span>現代皮囊之下</span>',
-      'sub_title' => 'SONG`S RESTAURANT',
-      'url' => 'belief',
+      'pic' => 'assets/images/uploads/15116746763-1.jpg',
+      'title' => '<div>GAME</div><div >OF THE  </div><div> INTERVAL</div><span>間隔的遊戲</span>',
+      'sub_title' => 'SONG`S CLUB',
+      'url' => 'workDetail?project=songclub',
     ),
     1 => 
     array (
-      'pic' => 'assets/images/uploads/1500827554index_bg.jpg',
-      'title' => '<div>under the </div><div style=\'width: 140px\'>morden</div><div style=\'width: 90px\'>skins</div><span>現代皮囊之下</span>',
-      'sub_title' => 'SONG`S RESTAURANT',
-      'url' => 'workDetail?project=songclub',
-    ),
-    2 => 
-    array (
-      'pic' => 'assets/images/uploads/1500827554indexGrid-04.jpg',
-      'title' => '<div>under the </div><div style=\'width: 140px\'>morden</div><div style=\'width: 90px\'>skins</div><span>現代皮囊之下</span>',
-      'sub_title' => 'SONG`S RESTAURANT',
-      'url' => 'home',
+      'pic' => 'assets/images/uploads/15116746562-1.jpg',
+      'title' => '<div style=\'width:80px\'>DEEP</div><div style=\'width:80px\'>AND</div><div style=\'width:80px\'>HUG</div><span>窺視與擁抱</span>',
+      'sub_title' => 'CAVE CLUB',
+      'url' => 'workDetail?project=cave',
     ),
   ),
   'page_title_en' => 'We through the design, communication sensoryrecycling cognition stimulate ideas, inspire the humanities',
@@ -43,7 +36,7 @@
   array (
     'pic' => 'http://images-1253411363.picgz.myqcloud.com/Song_club.jpg?imageMogr2/thumbnail/!600x720r/interlace/1|imageMogr2/gravity/center/crop/600x720/quality/70',
     'title' => 'Song`s Club<br /><em >2000㎡</em><br/>Zhujiang Newtown Guangzhou China<br/><em >2013</em>',
-    'url' => 'home',
+    'url' => 'workDetail?project=songclub',
   ),
   'songclub_award' => 
   array (
@@ -62,26 +55,26 @@
   array (
     'pic' => 'http://images-1253411363.picgz.myqcloud.com/indexGrid-04.jpg?imageMogr2/thumbnail/!750x1200r/interlace/1|imageMogr2/gravity/center/crop/750x1200/quality/70',
     'title' => 'Song`s Restaurant<br /><em >2000㎡</em><br/>Zhujiang Newtown Guangzhou China<br/><em >2017</em>',
-    'url' => 'home',
+    'url' => 'workDetail?project=songrestaurant',
   ),
   'cave' => 
   array (
     'pic' => 'http://images-1253411363.picgz.myqcloud.com/indexGrid-02.jpg?imageMogr2/thumbnail/!750x900r/interlace/1|imageMogr2/gravity/center/crop/750x900/quality/70',
     'title' => 'Cave<br /><em >300㎡</em><br/>Panyu Guangzhou China<br/><em >2017</em>',
-    'url' => 'home',
+    'url' => 'workDetail?project=cave',
   ),
   'blive_title' => '<h6><span>BLIVE</span></h6><h5>DIVERSITY IS NOT A <br />CHARACTERISTIC OF LIFE, IT IS A NECESSARY CONDITION FOR LIFE, LIKE AIR AND WATER IN GENERAL, STANDARDIZED AS A BRUTAL</h5><h6 class="ch"><span>我們信條：</span></h6><h5 class="ch">多洋性不是生活的特色，它是生活的必要條件，像空氣和水壹般，標準化如壹場野蠻生長的商業陰謀</h5>',
   'xclub' => 
   array (
     'pic' => 'http://images-1253411363.picgz.myqcloud.com/indexGrid.jpg?imageMogr2/thumbnail/!600x720r/interlace/1|imageMogr2/gravity/center/crop/600x720/quality/70',
     'title' => 'X-club<br /><em >2000㎡</em><br/>Guangxi Nanning China<br/><em >2017</em>',
-    'url' => 'home',
+    'url' => 'workDetail?project=xclub',
   ),
   'careers' => 
   array (
     'pic' => 'http://images-1253411363.picgz.myqcloud.com/HDA.jpg?imageMogr2/thumbnail/!750x900r/interlace/1|imageMogr2/gravity/center/crop/750x900/quality/70',
     'title' => 'Song`s Club<br /><em >Awards</em><br/>Hospitality design awards<br/><em >2013</em>',
-    'url' => 'careers',
+    'url' => 'workDetail?project=songclub',
   ),
   'award_en' => 'Republican city has been founded, with innovative, creative spirit for the community to provide a variety of design products, covering construction, clubs, restaurants, office, residential and other space, innovative bold design for the space into the new vitality, during the harvest of 21 works Global Top Design Competition Award',
   'award_zh' => '共和都市創辦至今，以革新的、創造的精神為社會提供多洋性的設計產品，<br />涵蓋建築、會所、餐飲、辦公、住宅等空間，創新大膽的設計為空間註入新的活力，<br />期間作品收獲21個全球頂尖設計賽事獎',
